@@ -22,16 +22,6 @@ client_secret = os.getenv("CLIENT_SECRET_KEY")
 main = Blueprint('main', __name__)
 
 
-@main.route('/data')
-def data():
-    return {
-        'Name': "geek",
-        "Age": "22",
-        "Date": "1999-01-01",
-        "programming": "python"
-    }
-
-
 @main.route('/', methods=['GET', 'POST'])
 def home():
     return render_template('home.html')
@@ -43,8 +33,6 @@ def upload():
         f = request.files['file']
         f.save(f"{UPLOAD_FOLDER}/{f.filename}")
     return render_template('upload.html')
-
-    # Class for processing candidates
 
 
 class CandidateInformation:
@@ -77,22 +65,3 @@ class CandidateInformation:
             "work": self.work,
             "links": self.links
         }
-
-
-@ main.route('/from_resume', methods=['POST'])
-def pdf_converter():
-    if 'file' not in request.files:
-        return jsonify({"error": "No file part"}), 400
-
-    file = request.files['file']
-
-    if file.filename == '':
-        return jsonify({"error": "No selected file"}), 400
-
-    if file and file.filename.endswith('.pdf'):
-        # process here
-        candidate = CandidateInformation(None)
-        candidate.convert_resume(file)
-        return jsonify(candidate.to_json()), 200
-    else:
-        return jsonify({"error": "Invalid file format"}), 400

@@ -3,14 +3,21 @@
     <div class="container">
         <div class="row">
                 <div class="card-header">
-                    <h3>Upload Resume</h3>
+                    <h3>Upload Files</h3>
                 </div>
                 <div class="card-body">
                     <p>Upload your resume to get started</p>
                 </div>
                 <form action="/" method="post" enctype="multipart/form-data">   
                     <div class="input-group">
-                        <input type="file" name="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                        <input type="file" name="resume" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                        <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Submit</button>
+                    </div><br>
+                    <div class="card-body">
+                        <p>Upload your LinkedIn Profile to get started</p>
+                    </div>
+                    <div class="input-group">
+                        <input type="file" name="linkedin" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                         <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Submit</button>
                     </div> 
                 </form> 
