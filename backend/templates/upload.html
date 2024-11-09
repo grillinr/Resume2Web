@@ -1,26 +1,274 @@
 {% extends "layout.html" %}
 {% block content %}
+    <style>
+        #skillsContainer {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        #skillsTagsContainer {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .skill-tag {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .delete-btn {
+            margin-left: 10px;
+            color: red;
+            cursor: pointer;
+        }
+
+        #skillInput {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
     <div class="container">
         <div class="row">
                 <div class="card-header">
-                    <h3>Upload Files</h3>
+                    <h3>Upload Files (PDF/docx)</h3>
                 </div>
-                <div class="card-body">
-                    <p>Upload your resume to get started</p>
-                </div>
-                <form action="/" method="post" enctype="multipart/form-data">   
+                <form action="{{ url_for('main.upload') }}" method="post" enctype="multipart/form-data">   
+                    <div class="card-body">
+                        <p>Upload your Resume</p>
+                    </div>
                     <div class="input-group">
                         <input type="file" name="resume" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                         <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Submit</button>
                     </div><br>
                     <div class="card-body">
-                        <p>Upload your LinkedIn Profile to get started</p>
+                        <p>Upload your LinkedIn Profile:</p>
                     </div>
                     <div class="input-group">
                         <input type="file" name="linkedin" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                         <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Submit</button>
                     </div> 
                 </form> 
+                {% if resume %}
+                    <p>{{ resume['name'] }}</p>
+                {% endif %}
+        </div><br>
+        <div class="row">
+            <form action="" method="POST" id="data">
+                <hr>
+                <!-- Name, Email, and Phone -->
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                </div><br>
+
+                <hr><br>
+
+                <!-- Links -->
+
+                <div id="linksContainer">
+                    <div class="input-group" id="link1">
+                        <label for="link1Input">Link 1:</label>
+                        <input type="url" id="link1Input" name="links[]" placeholder="Enter a link">
+                        <span class="delete-btn" onclick="deleteLink('link1')">Delete</span>
+                    </div>
+                </div>
+                <button type="button" onclick="addLink()">Add Another Link</button>
+
+                <br><hr><br>
+
+                <!-- Skills -->
+                <div id="skillsContainer">
+                    <input type="text" id="skillInput" placeholder="Enter a skill" />
+                    <button type="button" onclick="addSkill()">Add Skill</button>
+                    <div id="skillsTagsContainer"></div>
+                </div>
+
+                <br><hr><br>
+
+                <!-- Education -->
+                <div id="educationContainer">
+                    <div class="input-group" id="education1">
+                        <label for="school1">School:</label>
+                        <input type="text" id="school1" name="education[0][school]" placeholder="Enter School" required>
+                        <label for="startDate1">Start Date:</label>
+                        <input type="month" id="startDate1" name="education[0][startDate]" required>
+                        <label for="endDate1">End Date:</label>
+                        <input type="month" id="endDate1" name="education[0][endDate]" required>
+                        <label for="major1">Major:</label>
+                        <input type="text" id="major1" name="education[0][major]" placeholder="Enter Major" required>
+                        <label for="degree1">Degree:</label>
+                        <input type="text" id="degree1" name="education[0][degree]" placeholder="Enter Degree" required>
+                        <span class="delete-btn" onclick="deleteEducation('education1')">Delete</span>
+                    </div>
+                </div>
+                <button type="button" onclick="addEducation()">Add Another Education</button>
+
+                <br><hr><br>
+
+                <!-- Work Experience -->
+                <div id="workExperienceContainer">
+                    <div class="input-group" id="workExperience1">
+                        <label for="company1">Company:</label>
+                        <input type="text" id="company1" name="workExperience[0][company]" placeholder="Enter Company" required>
+                        <label for="role1">Role:</label>
+                        <input type="text" id="role1" name="workExperience[0][role]" placeholder="Enter Role" required>
+                        <label for="yearsExperience1">Years of Experience:</label>
+                        <input type="number" id="yearsExperience1" name="workExperience[0][yearsExperience]" placeholder="Enter Years of Experience" required>
+                        <span class="delete-btn" onclick="deleteWorkExperience('workExperience1')">Delete</span>
+                    </div>
+                </div>
+                <button type="button" onclick="addWorkExperience()">Add Another Work Experience</button>
+
+                <br><br><hr>
+
+                <input type="submit" value="Submit">
+            </form>
+
         </div>
     </div>
+<script>
+    let linkCounter = 2;
+    let skillCounter = 1;
+    let educationCounter = 2;
+    let workExperienceCounter = 2;
+
+    function addLink() {
+        const linksContainer = document.getElementById('linksContainer');
+        const newLinkDiv = document.createElement('div');
+        newLinkDiv.classList.add('input-group');
+        newLinkDiv.setAttribute('id', 'link' + linkCounter);
+
+        const label = document.createElement('label');
+        label.setAttribute('for', 'link' + linkCounter + 'Input');
+        label.textContent = `Link ${linkCounter}:`;
+
+        const input = document.createElement('input');
+        input.setAttribute('type', 'url');
+        input.setAttribute('id', 'link' + linkCounter + 'Input');
+        input.setAttribute('name', 'links[]');
+        input.setAttribute('placeholder', 'Enter a link');
+
+        const deleteBtn = document.createElement('span');
+        deleteBtn.classList.add('delete-btn');
+        deleteBtn.textContent = 'Delete';
+        deleteBtn.setAttribute('onclick', `deleteLink('link${linkCounter}')`);
+
+        newLinkDiv.appendChild(label);
+        newLinkDiv.appendChild(input);
+        newLinkDiv.appendChild(deleteBtn);
+        linksContainer.appendChild(newLinkDiv);
+
+        linkCounter++;
+    }
+
+    function deleteLink(linkId) {
+        const linkElement = document.getElementById(linkId);
+        linkElement.remove();
+    }
+
+    function addSkill() {
+        const skillInput = document.getElementById('skillInput');
+        const skillValue = skillInput.value.trim();
+
+        if (skillValue !== '') {
+            // Create skill tag
+            const skillTag = document.createElement('div');
+            skillTag.classList.add('skill-tag');
+            skillTag.textContent = skillValue;
+
+            // Create delete button
+            const deleteBtn = document.createElement('span');
+            deleteBtn.classList.add('delete-btn');
+            deleteBtn.textContent = 'X';
+            deleteBtn.onclick = () => deleteSkill(skillTag);
+
+            // Append delete button to tag
+            skillTag.appendChild(deleteBtn);
+
+            // Append tag to the skills container
+            const skillsTagsContainer = document.getElementById('skillsTagsContainer');
+            skillsTagsContainer.appendChild(skillTag);
+
+            // Clear the input field
+            skillInput.value = '';
+        }
+    }
+
+    function deleteSkill(skillTag) {
+        skillTag.remove();
+    }
+
+    function addEducation() {
+        const educationContainer = document.getElementById('educationContainer');
+        const newEducationDiv = document.createElement('div');
+        newEducationDiv.classList.add('input-group');
+        newEducationDiv.setAttribute('id', 'education' + educationCounter);
+
+        newEducationDiv.innerHTML = `
+            <label for="school${educationCounter}">School:</label>
+            <input type="text" id="school${educationCounter}" name="education[${educationCounter - 1}][school]" placeholder="Enter School" required>
+            <label for="startDate${educationCounter}">Start Date:</label>
+            <input type="month" id="startDate${educationCounter}" name="education[${educationCounter - 1}][startDate]" required>
+            <label for="endDate${educationCounter}">End Date:</label>
+            <input type="month" id="endDate${educationCounter}" name="education[${educationCounter - 1}][endDate]" required>
+            <label for="major${educationCounter}">Major:</label>
+            <input type="text" id="major${educationCounter}" name="education[${educationCounter - 1}][major]" placeholder="Enter Major" required>
+            <label for="degree${educationCounter}">Degree:</label>
+            <input type="text" id="degree${educationCounter}" name="education[${educationCounter - 1}][degree]" placeholder="Enter Degree" required>
+            <span class="delete-btn" onclick="deleteEducation('education${educationCounter}')">Delete</span>
+        `;
+
+        educationContainer.appendChild(newEducationDiv);
+        educationCounter++;
+    }
+
+    function deleteEducation(educationId) {
+        const educationElement = document.getElementById(educationId);
+        educationElement.remove();
+    }
+
+    function addWorkExperience() {
+        const workExperienceContainer = document.getElementById('workExperienceContainer');
+        const newWorkExperienceDiv = document.createElement('div');
+        newWorkExperienceDiv.classList.add('input-group');
+        newWorkExperienceDiv.setAttribute('id', 'workExperience' + workExperienceCounter);
+
+        newWorkExperienceDiv.innerHTML = `
+            <label for="company${workExperienceCounter}">Company:</label>
+            <input type="text" id="company${workExperienceCounter}" name="workExperience[${workExperienceCounter - 1}][company]" placeholder="Enter Company" required>
+            <label for="role${workExperienceCounter}">Role:</label>
+            <input type="text" id="role${workExperienceCounter}" name="workExperience[${workExperienceCounter - 1}][role]" placeholder="Enter Role" required>
+            <label for="yearsExperience${workExperienceCounter}">Years of Experience:</label>
+            <input type="number" id="yearsExperience${workExperienceCounter}" name="workExperience[${workExperienceCounter - 1}][yearsExperience]" placeholder="Enter Years of Experience" required>
+            <span class="delete-btn" onclick="deleteWorkExperience('workExperience${workExperienceCounter}')">Delete</span>
+        `;
+
+        workExperienceContainer.appendChild(newWorkExperienceDiv);
+        workExperienceCounter++;
+    }
+
+    function deleteWorkExperience(workExperienceId) {
+        const workExperienceElement = document.getElementById(workExperienceId);
+        workExperienceElement.remove();
+    }
+</script>
 {% endblock %}
