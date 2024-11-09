@@ -1,3 +1,5 @@
+**/*.pdf
+**/*.docx
 **/node_modules
 
 # Byte-compiled / optimized / DLL files
