@@ -1,0 +1,3 @@
+# CHANGE THIS FILE TO .env WHEN DONE
+FLASK_APP=backend/app.py
+SECRET_KEY=# put some random hash here
