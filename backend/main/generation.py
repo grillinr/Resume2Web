@@ -94,6 +94,7 @@ STYLE = """
   }}
 
   .contact li {{
+    list-style-type: {contact_list_style};
     margin: {contact_item_margin};
   }}
 
