@@ -74,15 +74,28 @@ const App: React.FC = () => {
     }
   };
 
-  const handleSubmit = async (event: React.FormEvent) => {
+  const handleSubmit = async (event: React.FormEvent, data: ResumeData) => {
     event.preventDefault();
     const formData = new FormData();
+    console.log(data);
+    // formData.append("data", JSON.stringify(data));
     console.log(formData);
     try {
-      const response = await fetch("http://localhost:5000/generate", {
-        method: "POST",
-        body: formData,
+      const response = await fetch('http://localhost:5000/generate', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
       });
+      if (!response.ok) {
+        throw new Error('Failed to get file content');
+      }
+    // try {
+    //   const response = await fetch("http://localhost:5000/generate", {
+    //     method: "POST",
+    //     body: formData,
+    //   });
       const result: ResumeData = await response.json();
       console.log(result); // Display the response in the console
       setData(result); // Update the state with the response data
