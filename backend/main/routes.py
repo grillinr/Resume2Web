@@ -65,10 +65,10 @@ def upload_file():
         exp = resume_data['workExperience'][i]['parsed']
         months = exp.get('workExperienceDateRange', None)
         experience.append({
-            'company': exp['workExperienceOrganization'],
+            'company': exp['workExperienceOrganization']['parsed'],
             'months': months['parsed']['durationInMonths'] if months else "",
             'title': exp['jobTitle']['raw'],
-            'desc': exp['jobDescription'],
+            'desc': exp['jobDescription']['parsed'],
         })
 
     return {
@@ -78,7 +78,7 @@ def upload_file():
         "links": [resume_data['website'][i]['raw'] for i in range(len(resume_data['website']))],
         "education": education,
         "experience": experience,
-        "skills": [resume_data['skill'][i]['raw'] for i in range(len(resume_data['skill']))],
+        "skills": [resume_data['skill'][i]['raw'].replace(",", "") for i in range(len(resume_data['skill']))],
         "about": resume_data['summary']
     }
 
