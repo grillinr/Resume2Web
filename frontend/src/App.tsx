@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import TagList from "./tags";
 
 interface ResumeData {
   college_name: string | null;
@@ -33,7 +34,7 @@ const App: React.FC = () => {
   };
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement>,
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
     field: keyof ResumeData
   ) => {
     if (result) {
@@ -71,6 +72,10 @@ const App: React.FC = () => {
       try {
         const response = await fetch('http://localhost:5000/generate', {
           method: 'POST',
+          body: JSON.stringify(result),
+          headers: {
+            'Content-Type': 'application/json',
+          },
         });
   
         if (!response.ok) {
@@ -173,9 +178,8 @@ const App: React.FC = () => {
 
               <div>
                 <label htmlFor="degree">Degree:</label>
-                <input
+                <textarea
                   id="degree"
-                  type="text"
                   value={result?.degree || ""}
                   onChange={(e) => handleInputChange(e, "degree")}
                 />
@@ -183,9 +187,8 @@ const App: React.FC = () => {
 
               <div>
                 <label htmlFor="designation">Designation:</label>
-                <input
+                <textarea
                   id="designation"
-                  type="text"
                   value={result?.designation || ""}
                   onChange={(e) => handleInputChange(e, "designation")}
                 />
@@ -193,9 +196,8 @@ const App: React.FC = () => {
 
               <div>
                 <label htmlFor="experience">Experience:</label>
-                <input
+                <textarea
                   id="experience"
-                  type="text"
                   value={result?.experience || ""}
                   onChange={(e) => handleInputChange(e, "experience")}
                 />
@@ -212,35 +214,11 @@ const App: React.FC = () => {
               </div>
 
               <div>
-                <label htmlFor="pages">No of Pages:</label>
-                <input
-                  id="pages"
-                  type="number"
-                  value={result?.no_of_pages || ""}
-                  onChange={(e) => handleInputChange(e, "no_of_pages")}
-                />
+                <TagList initialTags={result?.skills ? result.skills : []} tagName="skill"/>
               </div>
 
               <div>
-                <label htmlFor="skills">Skills:</label>
-                <input
-                  id="skills"
-                  type="text"
-                  value={result?.skills ? result.skills.join(", ") : ""}
-                  onChange={(e) => handleInputChange(e, "skills")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="companies">Companies:</label>
-                <input
-                  id="companies"
-                  type="text"
-                  value={
-                    result?.company_names ? result.company_names.join(", ") : ""
-                  }
-                  onChange={(e) => handleInputChange(e, "company_names")}
-                />
+                <TagList initialTags={result?.company_names ? result.company_names : []} tagName="companies"/>
               </div>
 
               <button type="submit">Submit</button>
