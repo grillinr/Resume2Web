@@ -431,7 +431,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
       {/* Colors Section */}
       <div className="bg-gray-50 p-6 rounded-lg space-y-4">
         <h3 className="font-semibold text-lg mb-4">Colors</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="row">
           <div>
             <label
               className="block text-sm font-medium mb-1"
@@ -444,7 +444,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
               type="color"
               value={data.bg_color || ""}
               onChange={(e) => handleBasicInputChange(e, "bg_color")}
-              className="w-full p-2 border rounded"
+              className="rounded col-4"
               title="Choose background color"
             />
           </div>
@@ -460,7 +460,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
               name="fg_color"
               value={data.fg_color || ""}
               onChange={(e) => handleBasicInputChange(e, "fg_color")}
-              className="w-full h-10 rounded"
+              className="rounded col-4"
               title="Choose foreground color"
             />
           </div>
@@ -476,7 +476,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
               name="text_color"
               value={data.text_color || ""}
               onChange={(e) => handleBasicInputChange(e, "text_color")}
-              className="w-full h-10 rounded"
+              className="rounded col-4"
               title="Choose text color"
             />
           </div>
@@ -492,7 +492,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
               name="link_color"
               value={data.link_color || ""}
               onChange={(e) => handleBasicInputChange(e, "link_color")}
-              className="w-full h-10 rounded"
+              className="rounded col-4"
               title="Choose link color"
             />
           </div>
@@ -671,7 +671,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
               name="job_bg_color"
               value={data.job_bg_color || ""}
               onChange={(e) => handleBasicInputChange(e, "job_bg_color")}
-              className="w-full h-10 rounded"
+              className="w-full h-10 rounded color-input"
               title="Choose job background color"
             />
           </div>
