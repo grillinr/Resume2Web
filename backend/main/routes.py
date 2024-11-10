@@ -1,7 +1,8 @@
-from flask import render_template, request, Blueprint, jsonify, abort, redirect, url_for, flash, make_response
+from flask import render_template, request, Blueprint, jsonify, abort, redirect, url_for, flash, make_response, send_from_directory
 import os
 import json
 from backend import UPLOAD_FOLDER
+from .generation import get_site
 import requests
 from dotenv import load_dotenv
 from typing import Union, List, Dict
@@ -20,17 +21,6 @@ def allowed_file(filename):
 load_dotenv()
 client_id = os.getenv("CLIENT_ID")
 client_secret = os.getenv("CLIENT_SECRET_KEY")
-
-@main.route('/data')
-def get_time():
-
-    # Returning an api for showing in  reactjs
-    return {
-        'name':"Nathan", 
-        "age": 21,
-        "date":"09/26/2003"
-        }
-
 
 @main.route('/', methods=['GET', 'POST'])
 def home():
@@ -51,7 +41,7 @@ def upload_file():
         return jsonify({"error": "No selected file"}), 400
 
     # Save the file
-    file_path = os.path.join(UPLOAD_FOLDER, file.filename)
+    file_path = os.path.join(UPLOAD_FOLDER, "resume.pdf")
     file.save(file_path)
     print(f"File saved to {file_path}")
     resumeData = parse_resume(file_path)
@@ -61,3 +51,58 @@ def upload_file():
 def parse_resume(resumePath):
     resumeJSON = ResumeParser(resumePath).get_extracted_data()
     return jsonify(resumeJSON)
+
+
+@main.route('/generate', methods=['POST'])
+def generate():
+    # user_info = request.json
+    # style_config = {
+    #     "bg_color": "#f9f8fd",
+    #     "fg_color": "#5d5c61",
+    #     "text_color": "#333",
+    #     "font_family": "'Georgia', serif",
+    #     "heading_font_family": "'Courier New', Courier, monospace",
+    #     "body_font_size": "1rem",
+    #     "body_text_align": "center",
+    #     "heading_font_size": "2.5rem",
+    #     "subheading_font_size": "1.5rem",
+    #     "subheading_text_align": "center",
+    #     "padding": "30px",
+    #     "margin": "20px",
+    #     "gap": "15px",
+    #     "stack_items": "vertical",  # or "horizontal"
+    #     "list_direction": "column",  # or "row",
+    #     "job_width": "30%",  # or "100%",
+    #     "job_margin": "0 0 15px 0",  # or "10px",
+    #     "container_max_width": "1100px",
+    #     "container_margin": "0 auto",
+    #     "header_bg_color": "#dfe7fd",
+    #     "header_text_color": "#3b3a43",
+    #     "header_padding": "30px",
+    #     "header_text_align": "center",
+    #     "skill_bg_color": "#a8e6cf",
+    #     "skill_text_color": "#3b3a43",
+    #     "skill_padding": "15px",
+    #     "skill_border_radius": "10px",
+    #     "job_bg_color": "#ffd3b6",
+    #     "job_padding": "15px",
+    #     "job_margin_bottom": "15px",
+    #     "job_border_radius": "10px",
+    #     "link_color": "#ff8b94",
+    #     "link_hover_color": "#ff6f69",
+    #     "contact_list_style": "square",
+    #     "contact_item_margin": "10px 0",
+    # }
+
+    # get_site(user_info, style_config)
+
+    # send_from_directory(directory="backend/out", path="generated_page.html")
+
+    # return jsonify({"sucess": True, "error": "None"})
+    
+    try:
+        print("Trying to send file")
+        return send_from_directory(directory="backend/out/", path="generated_page.html", as_attachment=True)
+    except FileNotFoundError:
+        print("File not found")
+        return jsonify({"error": "File not found"})

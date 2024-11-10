@@ -16,6 +16,11 @@ interface ResumeData {
   total_experience: number | null;
 }
 
+interface PostSuccess {
+  success: boolean;
+  error: string | null;
+}
+
 const App: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [result, setData] = useState<ResumeData | null>(null);
@@ -59,6 +64,39 @@ const App: React.FC = () => {
     } finally {
       setLoading(false);
     }
+  };
+
+  const DownloadButton: React.FC = () => {
+    const downloadFile = async () => {
+      try {
+        const response = await fetch('http://localhost:5000/generate', {
+          method: 'POST',
+        });
+  
+        if (!response.ok) {
+          throw new Error('Failed to download file');
+        }
+  
+        // Create a blob from the response
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+  
+        // Create a link to download the file
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'site.html'; // Suggested file name for download
+        document.body.appendChild(link);
+        link.click();
+  
+        // Clean up
+        link.remove();
+        window.URL.revokeObjectURL(url);
+      } catch (error) {
+        console.error('Error downloading file:', error);
+      }
+    };
+  
+    return <button onClick={downloadFile}>Download File</button>;
   };
 
   return (
@@ -211,6 +249,7 @@ const App: React.FC = () => {
         ) : (
           <p>No data available. Upload a resume to extract information.</p>
         )}
+        <DownloadButton />
       </div>
     </>
   );

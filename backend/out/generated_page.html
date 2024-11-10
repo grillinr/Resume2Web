@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek Corniello's Website</title>
+    
+<style>
+  body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f8fd;
+    color: #333;
+    text-align: center
+  }
+
+  header {
+    background-color: #dfe7fd;
+    color: #3b3a43;
+    padding: 30px;
+    text-align: center;
+  }
+
+  h1, h2, h3, h4 {
+      text-align: center
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    color: #5d5c61;
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .skill {
+    background-color: #a8e6cf;
+    padding: 15px;
+    color: #3b3a43;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .job-list, .education-list {
+    list-style-type: square;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .job, .education {
+    padding: 15px;
+    background-color: #ffd3b6;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 0 15px 0;
+  }
+
+  .contact ul {
+    list-style-type: square;
+    padding: 0;
+  }
+
+  .contact li {
+    margin: 10px 0;
+  }
+
+  a {
+    color: #ff8b94;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .links-section {
+    margin-top: 20px;
+  }
+
+  .container-section {
+    padding: 10px 0;
+  }
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>Derek Corniello's Personal Website</h1>
+</header>
+
+<section class="container-section">
+  <h3>About Me:</h3>
+  <p>hi im derek</p>
+</section>
+
+<section class="container-section contact">
+  <h3>Contact Information</h3>
+  <ul>
+    <li>dummy@example.com</li>
+    <li>1234567890</li>
+  </ul>
+</section>
+
+<section class="container-section links-section">
+  <h3>Links for more on me:</h3>
+  <a href='https://www.linkedin.com/in/derek-corniello'>https://www.linkedin.com/in/derek-corniello</a><br>
+<a href='https://github.com/DerekCorniello'>https://github.com/DerekCorniello</a><br>
+</section>
+
+<section class="container-section">
+  <h3>Education</h3>
+  <ul class="education-list">
+    
+<li class="education">
+  <h4>University of Cincinnati</h4><br>
+  Computer Science, Bachelor of Science, from August 2022 to Present.<br>
+</li>
+
+
+<li class="education">
+  <h4>University of Cincinnati</h4><br>
+  Software Engineering, Master of Engineering, from August 2022 to Present.<br>
+</li>
+
+  </ul>
+</section>
+
+<section class="container-section">
+  <h3>Job Experience:</h3>
+  <div class="job-list">
+    
+<div class="job">
+  <strong>Software Engineer</strong> @ Tech Solutions Inc. from January 2023 to Present.<br>
+  Description: Developing scalable web applications using Python, Django, and Vue.js.<br>
+</div>
+
+
+<div class="job">
+  <strong>Junior Developer</strong> @ Innovative Labs from June 2021 to December 2022.<br>
+  Description: Assisted in building front-end features and improving website performance.<br>
+</div>
+
+  </div>
+</section>
+
+<section class="container-section">
+  <h4>Skills</h4>
+  <div class="skills-container">
+    <div class='skill'>Python</div><div class='skill'>Django</div><div class='skill'>Vue.js</div><div class='skill'>Docker</div><div class='skill'>PostgreSQL</div><div class='skill'>JavaScript</div>
+  </div>
+</section>
+
+</body>
+</html>
