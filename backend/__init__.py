@@ -7,9 +7,9 @@ load_dotenv()
 
 UPLOAD_FOLDER = 'backend/uploads'
 
+
 def create_app():
-    
-    
+
     app = Flask(__name__)
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     CORS(app)

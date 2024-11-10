@@ -48,14 +48,45 @@ def upload_file():
     file_path = os.path.join(UPLOAD_FOLDER, "resume.pdf")
     file.save(file_path)
     print(f"File saved to {file_path}")
-    resumeData = parse_resume(file_path)
+    resume_data = parse_resume(file_path)['data']
 
-    return resumeData
+    education = []
+    for i in range(len(resume_data['education'])):
+        edu = resume_data['education'][i]['parsed']
+        education.append({
+            'name': edu["educationOrganization"]['parsed'],
+            'date_range': edu['educationDateRange']['raw'],
+            'majors': [edu['educationMajor'][i]['raw']
+                       for i in range(len(edu['educationMajor']))],
+            'degrees': edu['educationLevel']['parsed']['label'],
+        })
+    experience = []
+    for i in range(len(resume_data['workExperience'])):
+        exp = resume_data['workExperience'][i]['parsed']
+        months = exp.get('workExperienceDateRange', None)
+        experience.append({
+            'company': exp['workExperienceOrganization'],
+            'months': months['parsed']['durationInMonths'] if months else "",
+            'title': exp['jobTitle']['raw'],
+            'desc': exp['jobDescription'],
+        })
+
+    return {
+        "name": resume_data['candidateName']['raw'],
+        "email": resume_data['email'][0]['raw'],
+        "phone_number": resume_data['phoneNumber'][0]['raw'],
+        "links": [resume_data['website'][i]['raw'] for i in range(len(resume_data['website']))],
+        "education": education,
+        "experience": experience,
+        "skills": [resume_data['skill'][i]['raw'] for i in range(len(resume_data['skill']))],
+        "about": resume_data['summary']
+    }
 
 
 def parse_resume(resumePath):
     # DEBUG LINE:
-    with open("data.json", "r") as file:
+    path = os.path.join(os.path.dirname(__file__), 'data.json')
+    with open(path, "r") as file:
         return json.load(file)
 
     with open(resumePath, "rb") as file:
