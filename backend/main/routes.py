@@ -18,13 +18,16 @@ ALLOWED_EXTENSIONS = {'pdf', 'docx'}
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+
 load_dotenv()
 client_id = os.getenv("CLIENT_ID")
 client_secret = os.getenv("CLIENT_SECRET_KEY")
 
+
 @main.route('/', methods=['GET', 'POST'])
 def home():
     return render_template('home.html')
+
 
 @main.route('/upload', methods=['POST', 'GET'])
 def upload_file():
@@ -47,6 +50,7 @@ def upload_file():
     resumeData = parse_resume(file_path)
 
     return resumeData
+
 
 def parse_resume(resumePath):
     resumeJSON = ResumeParser(resumePath).get_extracted_data()
@@ -99,10 +103,14 @@ def generate():
     # send_from_directory(directory="backend/out", path="generated_page.html")
 
     # return jsonify({"sucess": True, "error": "None"})
-    
+
     try:
         print("Trying to send file")
-        return send_from_directory(directory="backend/out/", path="generated_page.html", as_attachment=True)
+        dir = os.path.join(os.path.dirname(__file__), '../out')
+        return send_from_directory(directory=dir, path="generated_page.html", as_attachment=True)
     except FileNotFoundError:
         print("File not found")
         return jsonify({"error": "File not found"})
+    except Exception as e:
+        print(e)
+        return jsonify({"error": "A server error occurred."}), 500

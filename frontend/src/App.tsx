@@ -16,10 +16,10 @@ interface ResumeData {
   total_experience: number | null;
 }
 
-interface PostSuccess {
+/* interface PostSuccess {
   success: boolean;
   error: string | null;
-}
+} */
 
 const App: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
