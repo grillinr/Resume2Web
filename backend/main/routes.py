@@ -123,9 +123,9 @@ def upload_file():
 
 def parse_resume(resumePath):
     # DEBUG LINE:
-    path = os.path.join(os.path.dirname(__file__), 'data.json')
-    with open(path, "r") as file:
-        return json.load(file)
+    # path = os.path.join(os.path.dirname(__file__), 'data.json')
+    # with open(path, "r") as file:
+    #    return json.load(file)
 
     with open(resumePath, "rb") as file:
         files = {
@@ -145,6 +145,7 @@ def parse_resume(resumePath):
         if response.status_code == 200:
             parsed_data = response.json()
             print(parsed_data)  # Parsed resume data
+            return parsed_data
         else:
             print(f"Error {response.status_code}: {response.text}")
 
