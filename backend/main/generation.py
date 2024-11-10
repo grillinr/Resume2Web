@@ -191,7 +191,6 @@ SKILLS = """
 </section>
 """
 
-
 def format_links(links):
     return LINKSECTION.format(links="\n".join([LINK.format(url=link) for link in links]))
 

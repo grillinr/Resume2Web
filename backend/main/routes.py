@@ -113,50 +113,46 @@ def parse_resume(resumePath):
 
 @main.route('/generate', methods=['POST'])
 def generate():
-    # user_info = request.json
-    # style_config = {
-    #     "bg_color": "#f9f8fd",
-    #     "fg_color": "#5d5c61",
-    #     "text_color": "#333",
-    #     "font_family": "'Georgia', serif",
-    #     "heading_font_family": "'Courier New', Courier, monospace",
-    #     "body_font_size": "1rem",
-    #     "body_text_align": "center",
-    #     "heading_font_size": "2.5rem",
-    #     "subheading_font_size": "1.5rem",
-    #     "subheading_text_align": "center",
-    #     "padding": "30px",
-    #     "margin": "20px",
-    #     "gap": "15px",
-    #     "stack_items": "vertical",  # or "horizontal"
-    #     "list_direction": "column",  # or "row",
-    #     "job_width": "30%",  # or "100%",
-    #     "job_margin": "0 0 15px 0",  # or "10px",
-    #     "container_max_width": "1100px",
-    #     "container_margin": "0 auto",
-    #     "header_bg_color": "#dfe7fd",
-    #     "header_text_color": "#3b3a43",
-    #     "header_padding": "30px",
-    #     "header_text_align": "center",
-    #     "skill_bg_color": "#a8e6cf",
-    #     "skill_text_color": "#3b3a43",
-    #     "skill_padding": "15px",
-    #     "skill_border_radius": "10px",
-    #     "job_bg_color": "#ffd3b6",
-    #     "job_padding": "15px",
-    #     "job_margin_bottom": "15px",
-    #     "job_border_radius": "10px",
-    #     "link_color": "#ff8b94",
-    #     "link_hover_color": "#ff6f69",
-    #     "contact_list_style": "square",
-    #     "contact_item_margin": "10px 0",
-    # }
+    user_info = request.json
+    style_config = {
+        "bg_color": "#f9f8fd",
+        "fg_color": "#5d5c61",
+        "text_color": "#333",
+        "font_family": "'Georgia', serif",
+        "heading_font_family": "'Courier New', Courier, monospace",
+        "body_font_size": "1rem",
+        "body_text_align": "center",
+        "heading_font_size": "2.5rem",
+        "subheading_font_size": "1.5rem",
+        "subheading_text_align": "center",
+        "padding": "30px",
+        "margin": "20px",
+        "gap": "15px",
+        "stack_items": "vertical",  # or "horizontal"
+        "list_direction": "column",  # or "row",
+        "job_width": "30%",  # or "100%",
+        "job_margin": "0 0 15px 0",  # or "10px",
+        "container_max_width": "1100px",
+        "container_margin": "0 auto",
+        "header_bg_color": "#dfe7fd",
+        "header_text_color": "#3b3a43",
+        "header_padding": "30px",
+        "header_text_align": "center",
+        "skill_bg_color": "#a8e6cf",
+        "skill_text_color": "#3b3a43",
+        "skill_padding": "15px",
+        "skill_border_radius": "10px",
+        "job_bg_color": "#ffd3b6",
+        "job_padding": "15px",
+        "job_margin_bottom": "15px",
+        "job_border_radius": "10px",
+        "link_color": "#ff8b94",
+        "link_hover_color": "#ff6f69",
+        "contact_list_style": "square",
+        "contact_item_margin": "10px 0",
+    }
 
-    # get_site(user_info, style_config)
-
-    # send_from_directory(directory="backend/out", path="generated_page.html")
-
-    # return jsonify({"sucess": True, "error": "None"})
+    get_site(user_info, style_config)
 
     try:
         print("Trying to send file")
