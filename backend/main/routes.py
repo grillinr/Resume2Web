@@ -23,6 +23,16 @@ client_secret = os.getenv("CLIENT_SECRET_KEY")
 
 main = Blueprint('main', __name__)
 
+@main.route('/data')
+def get_time():
+
+    # Returning an api for showing in  reactjs
+    return {
+        'name':"Nathan", 
+        "age": 21,
+        "date":"09/26/2003"
+        }
+
 
 @main.route('/', methods=['GET', 'POST'])
 def home():

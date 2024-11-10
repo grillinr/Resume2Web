@@ -1,10 +1,12 @@
 {
   "name": "vite-project",
   "private": true,
+  "proxy": "http://localhost:5000",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start-backend": "cd .. && flask run --no-debugger",
+    "start-frontend": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
