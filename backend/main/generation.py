@@ -150,7 +150,7 @@ LINKSECTION = """
 
 JOB = """
 <div class="job">
-  <strong>{role}</strong> @ {company} for {months}.<br>
+  <strong>{role}</strong> @ {company} for {months} months.<br>
   Description: {desc}<br>
 </div>
 """
@@ -201,23 +201,27 @@ def format_links(links):
 def format_jobs(job):
     if not job:
         return ""
-    return JOBS.format(jobs=JOB.format(
-        role=job[0]["title"],
-        company=job[0]["company"],
-        months=job[0]["months"],
-        desc=job[0]["desc"]
-    ))
+    return JOBS.format(jobs="".join([
+        JOB.format(
+            role=j["title"],
+            company=j["company"],
+            months=j["months"],
+            desc=j["desc"]
+        ) for j in job
+    ]))
 
 
 def format_schools(education):
     if not education:
         return ""
-    return SCHOOLS.format(schools=SCHOOL.format(
-        school=education[0]["name"],
-        majors=", ".join(education[0]["majors"]),
-        degrees=education[0]["degrees"],
-        date_range=education[0]["date_range"]
-    ))
+    return SCHOOLS.format(schools="".join([
+        SCHOOL.format(
+            school=edu["name"],
+            majors=", ".join(edu["majors"]),
+            degrees=edu["degrees"],
+            date_range=edu["date_range"]
+        ) for edu in education
+    ]))
 
 
 def format_skills(skills):
