@@ -52,12 +52,6 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
     onChange(updatedData);
   };
 
-  const handleLinksChange = (index: number, value: string) => {
-    const updatedLinks = [...(data.links || [""])];
-    updatedLinks[index] = value;
-    onChange({ ...data, links: updatedLinks as [string] });
-  };
-
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     onSubmit(event, data);
@@ -262,15 +256,6 @@ const ResumeForm: React.FC<ResumeFormProps> = ({
         onChange={(skills) => onChange({ ...data, skills })}
         tagName="Skill"
       />
-
-      <div className="flex justify-end space-x-4">
-        <button
-          type="submit"
-          className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
-        >
-          Save Resume
-        </button>
-      </div>
     </form>
   );
 };
