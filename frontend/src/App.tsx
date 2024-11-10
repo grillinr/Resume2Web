@@ -89,6 +89,13 @@ const App: React.FC = () => {
     };
 
 
+
+    const handleFormSubmit = async (event: React.FormEvent, data: ResumeData): Promise<void> => {
+        event.preventDefault(); // Prevent the form from submitting
+        await handleSubmit(data); // Await handleSubmit to return a Promise<void>
+    };
+
+
     const DownloadButton: React.FC = () => {
         const handleFileAction = async () => {
             if (!result) return; // Ensure there is result data before proceeding
@@ -177,12 +184,13 @@ const App: React.FC = () => {
 
             {loading && <p>Processing... Please wait.</p>}
 
+
             <div className="card">
                 {result ? (
                     <>
                         <ResumeForm
                             data={result}
-                            onSubmit={handleSubmit}
+                            onSubmit={handleFormSubmit} // Use the wrapper function
                             onChange={setData}
                         />
                         <DownloadButton />
