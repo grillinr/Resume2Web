@@ -127,6 +127,7 @@ def parse_resume(resumePath):
     # with open(path, "r") as file:
     #    return json.load(file)
 
+
     with open(resumePath, "rb") as file:
         files = {
             "file": file,
