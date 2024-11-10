@@ -1,0 +1,4095 @@
+{
+    "data": {
+        "achievement": None,
+        "association": None,
+        "availability": None,
+        "candidateName": {
+            "id": 506394835,
+            "rectangle": {
+                "x0": 252.37749,
+                "y0": 39.899536,
+                "x1": 360.95337,
+                "y1": 51.103455,
+                "pageIndex": 0
+            },
+            "rectangles": [
+                {
+                    "x0": 252.37749,
+                    "y0": 39.899536,
+                    "x1": 360.95337,
+                    "y1": 51.103455,
+                    "pageIndex": 0
+                }
+            ],
+            "document": "JXOznKnx",
+            "pageIndex": 0,
+            "raw": "Derek Corniello",
+            "parsed": {
+                "candidateNameFamily": {
+                    "id": 506394837,
+                    "rectangle": {
+                        "x0": 298.19867,
+                        "y0": 39.899536,
+                        "x1": 360.95337,
+                        "y1": 51.103455,
+                        "pageIndex": 0
+                    },
+                    "rectangles": [
+                        {
+                            "x0": 298.19867,
+                            "y0": 39.899536,
+                            "x1": 360.95337,
+                            "y1": 51.103455,
+                            "pageIndex": 0
+                        }
+                    ],
+                    "document": "JXOznKnx",
+                    "pageIndex": 0,
+                    "raw": "Corniello",
+                    "parsed": "Corniello",
+                    "confidence": 0.982,
+                    "classificationConfidence": 0.982,
+                    "textExtractionConfidence": 1.0,
+                    "isVerified": False,
+                    "isClientVerified": False,
+                    "isAutoVerified": False,
+                    "verifiedBy": None,
+                    "dataPoint": "JPTTzVgR",
+                    "contentType": "text",
+                    "parent": 506394835
+                },
+                "candidateNameFirst": {
+                    "id": 506394836,
+                    "rectangle": {
+                        "x0": 252.37749,
+                        "y0": 40.154907,
+                        "x1": 293.7139,
+                        "y1": 51.087463,
+                        "pageIndex": 0
+                    },
+                    "rectangles": [
+                        {
+                            "x0": 252.37749,
+                            "y0": 40.154907,
+                            "x1": 293.7139,
+                            "y1": 51.087463,
+                            "pageIndex": 0
+                        }
+                    ],
+                    "document": "JXOznKnx",
+                    "pageIndex": 0,
+                    "raw": "Derek",
+                    "parsed": "Derek",
+                    "confidence": 0.982,
+                    "classificationConfidence": 0.982,
+                    "textExtractionConfidence": 1.0,
+                    "isVerified": False,
+                    "isClientVerified": False,
+                    "isAutoVerified": False,
+                    "verifiedBy": None,
+                    "dataPoint": "uqIGRfKv",
+                    "contentType": "text",
+                    "parent": 506394835
+                }
+            },
+            "confidence": 1.0,
+            "classificationConfidence": 1.0,
+            "textExtractionConfidence": 1.0,
+            "isVerified": False,
+            "isClientVerified": False,
+            "isAutoVerified": False,
+            "verifiedBy": None,
+            "dataPoint": "VnzxoCXe",
+            "contentType": "group",
+            "parent": None
+        },
+        "dateOfBirth": None,
+        "education": [
+            {
+                "id": 506394838,
+                "rectangle": {
+                    "x0": 36.0498,
+                    "y0": 117.44818,
+                    "x1": 574.9614,
+                    "y1": 140.52142,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 36.0498,
+                        "y0": 117.44818,
+                        "x1": 574.9614,
+                        "y1": 140.52142,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "University of Cincinnati, Cincinnati, Ohio Expected Graduation: May 2027 Bachelor of Science, Computer Science - Master of Engineering, Software Engineering GPA: 3.9",
+                "parsed": {
+                    "educationOrganization": {
+                        "id": 506394839,
+                        "rectangle": {
+                            "x0": 36.0498,
+                            "y0": 117.44818,
+                            "x1": 135.19167,
+                            "y1": 126.60144,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.0498,
+                                "y0": 117.44818,
+                                "x1": 135.19167,
+                                "y1": 126.60144,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "University of Cincinnati,",
+                        "parsed": "University of Cincinnati",
+                        "confidence": 0.981,
+                        "classificationConfidence": 0.981,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "bOGfWpok",
+                        "contentType": "text",
+                        "parent": 506394838
+                    },
+                    "educationLocation": {
+                        "id": 506394840,
+                        "rectangle": {
+                            "x0": 138.58801,
+                            "y0": 117.44818,
+                            "x1": 204.3738,
+                            "y1": 126.1134,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 138.58801,
+                                "y0": 117.44818,
+                                "x1": 204.3738,
+                                "y1": 126.1134,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Cincinnati, Ohio",
+                        "parsed": {
+                            "formatted": "Cincinnati, OH, USA",
+                            "streetNumber": None,
+                            "street": None,
+                            "apartmentNumber": None,
+                            "city": "Cincinnati",
+                            "postalCode": None,
+                            "state": "Ohio",
+                            "stateCode": "OH",
+                            "country": "United States",
+                            "rawInput": "Cincinnati, Ohio",
+                            "countryCode": "US",
+                            "latitude": 39.1031182,
+                            "longitude": -84.5120196,
+                            "poBox": None
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "guWPCPxG",
+                        "contentType": "location",
+                        "parent": 506394838
+                    },
+                    "educationDateRange": {
+                        "id": 506394841,
+                        "rectangle": {
+                            "x0": 532.4968,
+                            "y0": 117.62744,
+                            "x1": 574.0599,
+                            "y1": 126.60144,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 532.4968,
+                                "y0": 117.62744,
+                                "x1": 574.0599,
+                                "y1": 126.60144,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "May 2027",
+                        "parsed": {
+                            "end": {
+                                "day": None,
+                                "date": "2027-05-01",
+                                "year": 2027,
+                                "month": 5,
+                                "isCurrent": False
+                            },
+                            "start": None,
+                            "durationInMonths": None
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "eXyAVzAL",
+                        "contentType": "daterange",
+                        "parent": 506394838
+                    },
+                    "educationAccreditation": {
+                        "id": 506394842,
+                        "rectangle": {
+                            "x0": 36.16932,
+                            "y0": 131.36816,
+                            "x1": 118.52858,
+                            "y1": 140.03339,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.16932,
+                                "y0": 131.36816,
+                                "x1": 118.52858,
+                                "y1": 140.03339,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Bachelor of Science,",
+                        "parsed": "Bachelor of Science",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "VBeTahGr",
+                        "contentType": "text",
+                        "parent": 506394838
+                    },
+                    "educationMajor": [
+                        {
+                            "id": 506394844,
+                            "rectangle": {
+                                "x0": 299.0973,
+                                "y0": 131.36816,
+                                "x1": 385.5999,
+                                "y1": 140.52142,
+                                "pageIndex": 0
+                            },
+                            "rectangles": [
+                                {
+                                    "x0": 299.0973,
+                                    "y0": 131.36816,
+                                    "x1": 385.5999,
+                                    "y1": 140.52142,
+                                    "pageIndex": 0
+                                }
+                            ],
+                            "document": "JXOznKnx",
+                            "pageIndex": 0,
+                            "raw": "Software Engineering",
+                            "parsed": "Software Engineering",
+                            "confidence": 0.75,
+                            "classificationConfidence": 0.75,
+                            "textExtractionConfidence": 1.0,
+                            "isVerified": False,
+                            "isClientVerified": False,
+                            "isAutoVerified": False,
+                            "verifiedBy": None,
+                            "dataPoint": "DVdCJkGZ",
+                            "contentType": "text",
+                            "parent": 506394838
+                        },
+                        {
+                            "id": 506394843,
+                            "rectangle": {
+                                "x0": 121.924934,
+                                "y0": 131.36816,
+                                "x1": 194.63292,
+                                "y1": 140.50146,
+                                "pageIndex": 0
+                            },
+                            "rectangles": [
+                                {
+                                    "x0": 121.924934,
+                                    "y0": 131.36816,
+                                    "x1": 194.63292,
+                                    "y1": 140.50146,
+                                    "pageIndex": 0
+                                }
+                            ],
+                            "document": "JXOznKnx",
+                            "pageIndex": 0,
+                            "raw": "Computer Science",
+                            "parsed": "Computer Science",
+                            "confidence": 0.914,
+                            "classificationConfidence": 0.914,
+                            "textExtractionConfidence": 1.0,
+                            "isVerified": False,
+                            "isClientVerified": False,
+                            "isAutoVerified": False,
+                            "verifiedBy": None,
+                            "dataPoint": "DVdCJkGZ",
+                            "contentType": "text",
+                            "parent": 506394838
+                        }
+                    ],
+                    "educationGrade": {
+                        "id": 506394845,
+                        "rectangle": {
+                            "x0": 537.1484,
+                            "y0": 131.52753,
+                            "x1": 574.9614,
+                            "y1": 138.52942,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 537.1484,
+                                "y0": 131.52753,
+                                "x1": 574.9614,
+                                "y1": 138.52942,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "GPA: 3.9",
+                        "parsed": {
+                            "educationGradeScore": {
+                                "id": 506394874,
+                                "rectangle": None,
+                                "rectangles": [],
+                                "document": "JXOznKnx",
+                                "pageIndex": 0,
+                                "raw": "GPA: 3.9",
+                                "parsed": 3.9,
+                                "confidence": 0.98,
+                                "classificationConfidence": 0.98,
+                                "textExtractionConfidence": 1.0,
+                                "isVerified": False,
+                                "isClientVerified": False,
+                                "isAutoVerified": False,
+                                "verifiedBy": None,
+                                "dataPoint": "vhLJAEZK",
+                                "contentType": "float",
+                                "parent": 506394845
+                            },
+                            "educationGradeUnit": {
+                                "id": 506394846,
+                                "rectangle": None,
+                                "rectangles": [],
+                                "document": "JXOznKnx",
+                                "pageIndex": 0,
+                                "raw": None,
+                                "parsed": {
+                                    "id": 8165,
+                                    "label": "GPA",
+                                    "value": "GPA"
+                                },
+                                "confidence": 0.855,
+                                "classificationConfidence": 0.855,
+                                "textExtractionConfidence": 1.0,
+                                "isVerified": False,
+                                "isClientVerified": False,
+                                "isAutoVerified": False,
+                                "verifiedBy": None,
+                                "dataPoint": "btOwzwDr",
+                                "contentType": "enum",
+                                "parent": 506394845
+                            }
+                        },
+                        "confidence": 0.98,
+                        "classificationConfidence": 0.98,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "dCxQdMsQ",
+                        "contentType": "group",
+                        "parent": 506394838
+                    },
+                    "educationLevel": {
+                        "id": 506394847,
+                        "rectangle": None,
+                        "rectangles": [],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": None,
+                        "parsed": {
+                            "id": 7871,
+                            "label": "Bachelor",
+                            "value": "Bachelor"
+                        },
+                        "confidence": 0.975,
+                        "classificationConfidence": 0.975,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "HrbPMAJS",
+                        "contentType": "enum",
+                        "parent": 506394838
+                    }
+                },
+                "confidence": 0.955,
+                "classificationConfidence": 0.955,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "pImSWkWw",
+                "contentType": "group",
+                "parent": None
+            }
+        ],
+        "email": [
+            {
+                "id": 506394774,
+                "rectangle": {
+                    "x0": 242.15948,
+                    "y0": 59.45819,
+                    "x1": 330.34534,
+                    "y1": 68.6214,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 242.15948,
+                        "y0": 59.45819,
+                        "x1": 330.34534,
+                        "y1": 68.6214,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "corniedj@mail.uc.edu",
+                "parsed": "corniedj@mail.uc.edu",
+                "confidence": 0.982,
+                "classificationConfidence": 0.982,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "dOXvRAeJ",
+                "contentType": "text",
+                "parent": None
+            },
+            {
+                "id": 506394775,
+                "rectangle": {
+                    "x0": 337.95868,
+                    "y0": 59.46814,
+                    "x1": 433.1265,
+                    "y1": 68.6214,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 337.95868,
+                        "y0": 59.46814,
+                        "x1": 433.1265,
+                        "y1": 68.6214,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "derekcorniello.github.io",
+                "parsed": None,
+                "confidence": 0.981,
+                "classificationConfidence": 0.981,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "dOXvRAeJ",
+                "contentType": "text",
+                "parent": None
+            }
+        ],
+        "expectedSalary": None,
+        "headshot": None,
+        "hobby": None,
+        "language": None,
+        "location": None,
+        "nationality": None,
+        "objective": None,
+        "patent": None,
+        "phoneNumber": [
+            {
+                "id": 506394776,
+                "rectangle": {
+                    "x0": 179.93936,
+                    "y0": 59.6474,
+                    "x1": 233.50424,
+                    "y1": 66.609436,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 179.93936,
+                        "y0": 59.6474,
+                        "x1": 233.50424,
+                        "y1": 66.609436,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "440.821.5281",
+                "parsed": {
+                    "rawText": "440.821.5281",
+                    "countryCode": "US",
+                    "nationalNumber": "(440) 821-5281",
+                    "formattedNumber": "+1 440-821-5281",
+                    "internationalCountryCode": 1
+                },
+                "confidence": 0.982,
+                "classificationConfidence": 0.982,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "JscxHoPx",
+                "contentType": "phonenumber",
+                "parent": None
+            }
+        ],
+        "preferredWorkLocation": None,
+        "project": None,
+        "publication": None,
+        "redactedText": {
+            "id": 506394876,
+            "rectangle": None,
+            "rectangles": [],
+            "document": "JXOznKnx",
+            "pageIndex": 0,
+            "raw": None,
+            "parsed": "*****  *********  \n************  |  ********************  |  ************************  LinkedIn:  *******************************  |  GitHub:  *************************  \n \nEDUCATION  University  of  Cincinnati,  Cincinnati,  Ohio  Expected  Graduation:  May  2027  Bachelor  of  Science,  Computer  Science  -  Master  of  Engineering,  Software  Engineering  GPA: 3.9  Relevant  Courses:  Software  Engineering,  Web  Applications,  Analysis  of  Algorithms,  Computer  Networking  and  Data  Structures  \n \nEXPERIENCE  Siemens  Digital  Industries  Software  –  Milford,  OH  January  2024  –  Present  Software  Engineering  Research  and  Development  Intern  \n•  Collaborated  with  three  cross-functional  teams  to  design,  develop,  and  test  dozens  of  innovative  software  solutions  \n•  Executed  dozens  of  prototypes  to  validate  hypotheses  and  analyze  insight  into  future  development  \n•  Engaged  in  continuous  learning  by  actively  researching  new  AI  training  and  usage  methodologies  relevant  to  current  projects  \n•  Contributed  hundreds  of  pages  of  documentation  of  projects,  facilitating  seamless  knowledge  transfer  and  collaboration  \n•  Identifies  and  resolved  software  bugs  and  issues,  demonstrating  a  meticulous  approach  to  debugging  and  troubleshooting  \n \nUniversity  of  Cincinnati  College  of  Engineering  and  Applied  Science  –  Cincinnati,  OH  August  2023  –  Present  Peer  Teaching  Assistant  (Seasonal)  \n•  Assisted  in  planning  and  delivering  course  materials  to  lead  a  productive  classroom  in  active  learning  \n•  Fostered  learning  in  over  75  students  per  semester  through  tutoring  and  mentoring  outside  of  class  \n•  Sustained  trust  with  management  to  act  with  integrity  and  finish  tasks  efficiently  and  on  time  \n•  Collaborated  with  faculty  and  other  TAs  to  continuously  improve  course  delivery  and  assessment  methods  \n•  Managed  student  records,  attendance,  and  grading  systems,  ensuring  accuracy  and  confidentiality  \n \nChipotle  –  Brunswick,  OH  /  Hyde  Park,  OH  August  2021  –  April  2024  Kitchen  Leader  \n•  Oversaw  daily  workflow  of  food  service  from  receiving,  storing,  and  serving  of  food  \n•  Conserved  the  safety  of  nearly  50  crew  members  whilst  communicating  with  upper  management  daily  \n•  Maintained  a  clean  restaurant  environment,  establishing  attentiveness  to  detail  with  an  "A"  health  inspection  score  \n•  Trained  over  ten  crew  members  and  managers  as  well  as  assisted  coworkers  with  various  duties  \n•  Modeled  time  management  skills  as  demonstrated  by  increased  food  quality  and  output  by  about  10%  \n \nSKILLS  Soft  Skills:  Technical  Communication,  Documentation,  Problem  Solving,  Collaboration,  Flexibility  and  Motivation  Software  and  Frameworks:  Git,  NeoVim,  Docker,  Neo4j,  VMs,  PostgreSQL,  Apache,  Vue.js,  and  Unity  Languages:  Python,  C#,  C/C++,  Cypher,  SQL,  HTML/CSS  and  JavaScript/Typescript  \n \nPROJECT  EXPERIENCE  AND  ACTIVITIES  University  of  Cincinnati  Software  Development  Teams  Responsibilities:  Managed  and  developed  software  through  agile  methodologies  to  deliver  timely  solutions  Engineering  Project  Management  and  Documentation  Responsibilities:  Developed  a  solution  to  problems  using  project  management  and  engineering  design  process  Lab  Management  Team  Responsibilities:  Sustained  a  working  lab  space  of  eight  3D  printers  for  teams  through  teamwork  and  maintenance  \n \nAvailable  to  Co-Op  Summer  2025 ",
+            "confidence": None,
+            "classificationConfidence": None,
+            "textExtractionConfidence": 1.0,
+            "isVerified": False,
+            "isClientVerified": False,
+            "isAutoVerified": False,
+            "verifiedBy": None,
+            "dataPoint": "AWBbXqKc",
+            "contentType": "text",
+            "parent": None
+        },
+        "referee": None,
+        "rightToWork": None,
+        "skill": [
+            {
+                "id": 506394777,
+                "rectangle": {
+                    "x0": 121.924934,
+                    "y0": 131.36816,
+                    "x1": 194.63292,
+                    "y1": 140.50146,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 121.924934,
+                        "y0": 131.36816,
+                        "x1": 194.63292,
+                        "y1": 140.50146,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Computer Science",
+                "parsed": {
+                    "name": "Computer Science",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1226Y6DNDT05G7FJ4J",
+                    "escoId": "7b5cce4d-c7fe-4119-b48f-70aa05391787",
+                    "infoUrl": "https: //en.wikipedia.org/wiki/Computer_science",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Computer Science"
+                },
+                "confidence": 0.895,
+                "classificationConfidence": 0.895,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394778,
+                "rectangle": {
+                    "x0": 299.0973,
+                    "y0": 131.36816,
+                    "x1": 385.5999,
+                    "y1": 140.52142,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 299.0973,
+                        "y0": 131.36816,
+                        "x1": 385.5999,
+                        "y1": 140.52142,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Software Engineering",
+                "parsed": {
+                    "name": "Software Engineering",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS440QS66YCBN23Y8K25",
+                    "escoId": "83b33952-3872-46ec-9a2e-b28f91303a7e",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Software_engineering",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Software Development"
+                },
+                "confidence": 0.787,
+                "classificationConfidence": 0.787,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394779,
+                "rectangle": {
+                    "x0": 117.16748,
+                    "y0": 145.76813,
+                    "x1": 206.00073,
+                    "y1": 154.92139,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 117.16748,
+                        "y0": 145.76813,
+                        "x1": 206.00073,
+                        "y1": 154.92139,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Software Engineering,",
+                "parsed": {
+                    "name": "Software Engineering",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS440QS66YCBN23Y8K25",
+                    "escoId": "83b33952-3872-46ec-9a2e-b28f91303a7e",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Software_engineering",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Software Development"
+                },
+                "confidence": 0.938,
+                "classificationConfidence": 0.938,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394780,
+                "rectangle": {
+                    "x0": 209.09949,
+                    "y0": 145.76813,
+                    "x1": 281.95688,
+                    "y1": 154.90143,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 209.09949,
+                        "y0": 145.76813,
+                        "x1": 281.95688,
+                        "y1": 154.90143,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Web Applications,",
+                "parsed": {
+                    "name": "Web Applications",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS441ZY6P0PDB5DWTRB8",
+                    "escoId": "69bbd53f-fbb0-4476-b4b2-ef7844464e28",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Web_application",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Web Design and Development"
+                },
+                "confidence": 0.863,
+                "classificationConfidence": 0.863,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394781,
+                "rectangle": {
+                    "x0": 284.52966,
+                    "y0": 145.76813,
+                    "x1": 379.75912,
+                    "y1": 154.92139,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 284.52966,
+                        "y0": 145.76813,
+                        "x1": 379.75912,
+                        "y1": 154.92139,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Analysis of Algorithms,",
+                "parsed": {
+                    "name": "Algorithm Analysis",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120D96H7R27D70W4Q0",
+                    "escoId": "ed39edd3-44d0-4a16-9796-bfb99f92baf3",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Analysis_of_algorithms",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Computer Science"
+                },
+                "confidence": 0.869,
+                "classificationConfidence": 0.869,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394782,
+                "rectangle": {
+                    "x0": 383.22855,
+                    "y0": 145.76813,
+                    "x1": 472.8885,
+                    "y1": 154.92139,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 383.22855,
+                        "y0": 145.76813,
+                        "x1": 472.8885,
+                        "y1": 154.92139,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Computer Networking",
+                "parsed": {
+                    "name": "Network Engineering",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS126Z96STZD3JX27V02",
+                    "escoId": "f9e788df-d68a-4f92-92c7-80e135fc35ff",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Network_engineering",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "General Networking"
+                },
+                "confidence": 0.922,
+                "classificationConfidence": 0.922,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394783,
+                "rectangle": {
+                    "x0": 492.68896,
+                    "y0": 145.93744,
+                    "x1": 553.9529,
+                    "y1": 152.91943,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 492.68896,
+                        "y0": 145.93744,
+                        "x1": 553.9529,
+                        "y1": 152.91943,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Data Structures",
+                "parsed": {
+                    "name": "Data Structures",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS122Q26BWQ1PK3Y74C0",
+                    "escoId": "7b5cce4d-c7fe-4119-b48f-70aa05391787",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Data_structure",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Computer Science"
+                },
+                "confidence": 0.876,
+                "classificationConfidence": 0.876,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394784,
+                "rectangle": {
+                    "x0": 36.06972,
+                    "y0": 203.00812,
+                    "x1": 123.28946,
+                    "y1": 212.16138,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 36.06972,
+                        "y0": 203.00812,
+                        "x1": 123.28946,
+                        "y1": 212.16138,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Software Engineering",
+                "parsed": {
+                    "name": "Software Engineering",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS440QS66YCBN23Y8K25",
+                    "escoId": "83b33952-3872-46ec-9a2e-b28f91303a7e",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Software_engineering",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Software Development"
+                },
+                "confidence": 0.712,
+                "classificationConfidence": 0.712,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394785,
+                "rectangle": {
+                    "x0": 125.4209,
+                    "y0": 203.00812,
+                    "x1": 161.86453,
+                    "y1": 210.12952,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 125.4209,
+                        "y0": 203.00812,
+                        "x1": 161.86453,
+                        "y1": 210.12952,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Research",
+                "parsed": {
+                    "name": "Research",
+                    "type": "Common Skill",
+                    "emsiId": "KS1203C6N9B52QGB4H67",
+                    "escoId": "4fabca9a-7435-4f33-b1da-3cdb00340fdc",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Research",
+                    "category": "Science and Research",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "General Science and Research"
+                },
+                "confidence": 0.758,
+                "classificationConfidence": 0.758,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394786,
+                "rectangle": {
+                    "x0": 315.3697,
+                    "y0": 246.28748,
+                    "x1": 325.55878,
+                    "y1": 253.13,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 315.3697,
+                        "y0": 246.28748,
+                        "x1": 325.55878,
+                        "y1": 253.13,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "AI",
+                "parsed": {
+                    "name": "Artificial Intelligence",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120BV6SR75RBKQH0G3",
+                    "escoId": "3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Artificial Intelligence and Machine Learning (AI/ML)"
+                },
+                "confidence": 0.63,
+                "classificationConfidence": 0.63,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394787,
+                "rectangle": {
+                    "x0": 498.29614,
+                    "y0": 260.03815,
+                    "x1": 550.4966,
+                    "y1": 267.17944,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 498.29614,
+                        "y0": 260.03815,
+                        "x1": 550.4966,
+                        "y1": 267.17944,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "collaboration",
+                "parsed": {
+                    "name": "Collaboration",
+                    "type": "Common Skill",
+                    "emsiId": "KS7AASDV6UOE7VFBGF4D",
+                    "escoId": "326809fc-238d-40c2-881e-40042f7f2f0d",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Collaboration",
+                    "category": "Media and Communications",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Communication"
+                },
+                "confidence": 0.775,
+                "classificationConfidence": 0.775,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394788,
+                "rectangle": {
+                    "x0": 493.641,
+                    "y0": 273.9582,
+                    "x1": 555.8812,
+                    "y1": 283.1114,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 493.641,
+                        "y0": 273.9582,
+                        "x1": 555.8812,
+                        "y1": 283.1114,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "troubleshooting",
+                "parsed": {
+                    "name": "Network Troubleshooting",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS125PT6MTXZ1JWXX79M",
+                    "escoId": "744442ac-c157-4350-8be0-ce454df4f5c5",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "General Networking"
+                },
+                "confidence": 0.91,
+                "classificationConfidence": 0.91,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394789,
+                "rectangle": {
+                    "x0": 258.95734,
+                    "y0": 303.0375,
+                    "x1": 326.50604,
+                    "y1": 312.01147,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 258.95734,
+                        "y0": 303.0375,
+                        "x1": 326.50604,
+                        "y1": 312.01147,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Applied Science",
+                "parsed": {
+                    "name": "Applied Science",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120LK6NV7DJ4TYY3DV",
+                    "escoId": "5c3ab99d-a3f1-4620-9602-d12d2151a03d",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Applied_science",
+                    "category": "Science and Research",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "General Science and Research"
+                },
+                "confidence": 0.702,
+                "classificationConfidence": 0.702,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394790,
+                "rectangle": {
+                    "x0": 35.77092,
+                    "y0": 317.27814,
+                    "x1": 93.93732,
+                    "y1": 326.43137,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 35.77092,
+                        "y0": 317.27814,
+                        "x1": 93.93732,
+                        "y1": 326.43137,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Peer Teaching",
+                "parsed": {
+                    "name": "Peer Review",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1203C6NR11FH9MPS71",
+                    "escoId": "c290c45c-b8da-4517-be4a-b16fdce26cb2",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Peer_review",
+                    "category": "Law, Regulation, and Compliance",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Quality Assurance and Control"
+                },
+                "confidence": 0.628,
+                "classificationConfidence": 0.628,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394791,
+                "rectangle": {
+                    "x0": 118.636795,
+                    "y0": 332.39816,
+                    "x1": 280.89514,
+                    "y1": 341.5514,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 118.636795,
+                        "y0": 332.39816,
+                        "x1": 280.89514,
+                        "y1": 341.5514,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "planning and delivering course materials",
+                "parsed": {
+                    "name": "Curriculum Planning",
+                    "type": "Specialized Skill",
+                    "emsiId": "ES82F24A0BE917B392E9",
+                    "escoId": "8193f6c6-80d5-4542-a316-2b783e3d8ad9",
+                    "category": "Education and Training",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Instructional and Curriculum Design"
+                },
+                "confidence": 0.654,
+                "classificationConfidence": 0.654,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394792,
+                "rectangle": {
+                    "x0": 419.28485,
+                    "y0": 332.39816,
+                    "x1": 477.90945,
+                    "y1": 341.5514,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 419.28485,
+                        "y0": 332.39816,
+                        "x1": 477.90945,
+                        "y1": 341.5514,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "active learning",
+                "parsed": {
+                    "name": "Active Learning",
+                    "type": "Common Skill",
+                    "emsiId": "KS1205G70KR7LY58Q27Z",
+                    "escoId": "a44c0ed6-68b1-457a-9c6d-ea8487bdfeb2",
+                    "category": "Education and Training",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Teaching"
+                },
+                "confidence": 0.564,
+                "classificationConfidence": 0.564,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394793,
+                "rectangle": {
+                    "x0": 109.24452,
+                    "y0": 346.31815,
+                    "x1": 141.55476,
+                    "y1": 355.47137,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 109.24452,
+                        "y0": 346.31815,
+                        "x1": 141.55476,
+                        "y1": 355.47137,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "learning",
+                "parsed": {
+                    "name": "Artificial Intelligence",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120BV6SR75RBKQH0G3",
+                    "escoId": "3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Artificial Intelligence and Machine Learning (AI/ML)"
+                },
+                "confidence": 0.721,
+                "classificationConfidence": 0.721,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394794,
+                "rectangle": {
+                    "x0": 309.09488,
+                    "y0": 346.31815,
+                    "x1": 340.39914,
+                    "y1": 355.47137,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 309.09488,
+                        "y0": 346.31815,
+                        "x1": 340.39914,
+                        "y1": 355.47137,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "tutoring",
+                "parsed": {
+                    "name": "Teaching",
+                    "type": "Common Skill",
+                    "emsiId": "KS120PQ6XD1JWMFQVJNW",
+                    "escoId": "59eb177a-2f30-4943-8b30-5f87dd51a80d",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Teacher#Qualities",
+                    "category": "Education and Training",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Teaching"
+                },
+                "confidence": 0.88,
+                "classificationConfidence": 0.88,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394795,
+                "rectangle": {
+                    "x0": 360.11993,
+                    "y0": 346.31815,
+                    "x1": 400.90616,
+                    "y1": 355.47137,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 360.11993,
+                        "y0": 346.31815,
+                        "x1": 400.90616,
+                        "y1": 355.47137,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "mentoring",
+                "parsed": {
+                    "name": "Mentorship",
+                    "type": "Common Skill",
+                    "emsiId": "KS126D668BLGSC15GFLS",
+                    "escoId": "28722c99-68b7-4b7b-808f-53f343299935",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Mentorship",
+                    "category": "Education and Training",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Teaching"
+                },
+                "confidence": 0.728,
+                "classificationConfidence": 0.728,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394796,
+                "rectangle": {
+                    "x0": 113.48748,
+                    "y0": 361.3641,
+                    "x1": 131.14656,
+                    "y1": 367.49948,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 113.48748,
+                        "y0": 361.3641,
+                        "x1": 131.14656,
+                        "y1": 367.49948,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "trust",
+                "parsed": {
+                    "name": "Auditing",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120RN6FDTS9FLCH3T0",
+                    "escoId": "8804d963-5a31-4609-b5df-f741b7199fb7",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Auditing",
+                    "category": "Law, Regulation, and Compliance",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Auditing"
+                },
+                "confidence": 0.65,
+                "classificationConfidence": 0.65,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394797,
+                "rectangle": {
+                    "x0": 153.97488,
+                    "y0": 361.3641,
+                    "x1": 204.99997,
+                    "y1": 369.51138,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 153.97488,
+                        "y0": 361.3641,
+                        "x1": 204.99997,
+                        "y1": 369.51138,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "management",
+                "parsed": {
+                    "name": "Management",
+                    "type": "Common Skill",
+                    "emsiId": "KS1218W78FGVPVP2KXPX",
+                    "escoId": "0a48d064-dd04-47fb-a00d-85e9b4874033",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Management",
+                    "category": "Business",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Business Management"
+                },
+                "confidence": 0.919,
+                "classificationConfidence": 0.919,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394798,
+                "rectangle": {
+                    "x0": 143.15833,
+                    "y0": 388.19815,
+                    "x1": 174.44269,
+                    "y1": 396.86334,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 143.15833,
+                        "y0": 388.19815,
+                        "x1": 174.44269,
+                        "y1": 396.86334,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "records,",
+                "parsed": {
+                    "name": "Records Management",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS123FM6FGKFC3195NL3",
+                    "escoId": "ea1bf5e5-e7f0-4d2c-a415-1c39c00512b1",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Records_management",
+                    "category": "Administration",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Document Management"
+                },
+                "confidence": 0.702,
+                "classificationConfidence": 0.702,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394799,
+                "rectangle": {
+                    "x0": 242.3898,
+                    "y0": 388.19815,
+                    "x1": 308.6935,
+                    "y1": 397.35138,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 242.3898,
+                        "y0": 388.19815,
+                        "x1": 308.6935,
+                        "y1": 397.35138,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "grading systems,",
+                "parsed": {
+                    "name": "Grading (Landscape)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS7G82H74NBVCV9RJBFJ",
+                    "escoId": "6055a4be-3f41-47e3-acd1-0535fa17e04c",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Grading_(earthworks)",
+                    "category": "Engineering",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Civil and Architectural Engineering"
+                },
+                "confidence": 0.635,
+                "classificationConfidence": 0.635,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394800,
+                "rectangle": {
+                    "x0": 403.97095,
+                    "y0": 388.19815,
+                    "x1": 461.6992,
+                    "y1": 397.35138,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 403.97095,
+                        "y0": 388.19815,
+                        "x1": 461.6992,
+                        "y1": 397.35138,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "confidentiality",
+                "parsed": {
+                    "name": "Client Confidentiality",
+                    "type": "Common Skill",
+                    "emsiId": "ES4377E98D46E0742EFF",
+                    "escoId": "abbf6f61-04eb-4e1a-9694-05ba28ac38bf",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Client_confidentiality",
+                    "category": "Law, Regulation, and Compliance",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Regulation and Legal Compliance"
+                },
+                "confidence": 0.844,
+                "classificationConfidence": 0.844,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394801,
+                "rectangle": {
+                    "x0": 297.62866,
+                    "y0": 460.93817,
+                    "x1": 359.28107,
+                    "y1": 470.0914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 297.62866,
+                        "y0": 460.93817,
+                        "x1": 359.28107,
+                        "y1": 470.0914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "communicating",
+                "parsed": {
+                    "name": "Communications",
+                    "type": "Common Skill",
+                    "emsiId": "KS122556LMQ829GZCCRV",
+                    "escoId": "15d76317-c71a-4fa2-aadc-2ecc34e627b7",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Communication",
+                    "category": "Media and Communications",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Communication"
+                },
+                "confidence": 0.818,
+                "classificationConfidence": 0.818,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394802,
+                "rectangle": {
+                    "x0": 407.61725,
+                    "y0": 461.94412,
+                    "x1": 458.64233,
+                    "y1": 470.0914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 407.61725,
+                        "y0": 461.94412,
+                        "x1": 458.64233,
+                        "y1": 470.0914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "management",
+                "parsed": {
+                    "name": "Management",
+                    "type": "Common Skill",
+                    "emsiId": "KS1218W78FGVPVP2KXPX",
+                    "escoId": "0a48d064-dd04-47fb-a00d-85e9b4874033",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Management",
+                    "category": "Business",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Business Management"
+                },
+                "confidence": 0.645,
+                "classificationConfidence": 0.645,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394803,
+                "rectangle": {
+                    "x0": 110.2796,
+                    "y0": 502.69815,
+                    "x1": 181.53345,
+                    "y1": 511.85138,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 110.2796,
+                        "y0": 502.69815,
+                        "x1": 181.53345,
+                        "y1": 511.85138,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "time management",
+                "parsed": {
+                    "name": "Organizational Skills",
+                    "type": "Common Skill",
+                    "emsiId": "ES8B03DAD3B526316ED9",
+                    "category": "Physical and Inherent Abilities",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Personal Attributes"
+                },
+                "confidence": 0.851,
+                "classificationConfidence": 0.851,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394804,
+                "rectangle": {
+                    "x0": 120.6788,
+                    "y0": 544.33813,
+                    "x1": 228.09743,
+                    "y1": 553.00336,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 120.6788,
+                        "y0": 544.33813,
+                        "x1": 228.09743,
+                        "y1": 553.00336,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Technical Communication,",
+                "parsed": {
+                    "name": "Technical Communication",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS4418G65ZT0JSGKHZLS",
+                    "escoId": "c32ad607-0c4d-4e34-b73f-668298f7bf13",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Technical_communication",
+                    "category": "Media and Communications",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Communication"
+                },
+                "confidence": 0.899,
+                "classificationConfidence": 0.899,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394805,
+                "rectangle": {
+                    "x0": 231.30453,
+                    "y0": 544.33813,
+                    "x1": 294.74973,
+                    "y1": 553.00336,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 231.30453,
+                        "y0": 544.33813,
+                        "x1": 294.74973,
+                        "y1": 553.00336,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Documentation,",
+                "parsed": {
+                    "name": "Document Processing",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1233N741Q4095RFZS8",
+                    "escoId": "ea1bf5e5-e7f0-4d2c-a415-1c39c00512b1",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Document_processing",
+                    "category": "Administration",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Document Management"
+                },
+                "confidence": 0.964,
+                "classificationConfidence": 0.964,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394806,
+                "rectangle": {
+                    "x0": 297.95685,
+                    "y0": 544.33813,
+                    "x1": 367.13898,
+                    "y1": 553.4914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 297.95685,
+                        "y0": 544.33813,
+                        "x1": 367.13898,
+                        "y1": 553.4914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Problem Solving,",
+                "parsed": {
+                    "name": "Problem Solving",
+                    "type": "Common Skill",
+                    "emsiId": "KS125F678LV2KB3Z5XW0",
+                    "escoId": "adc6dc11-3376-467b-96c5-9b0a21edc869",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Problem_solving",
+                    "category": "Physical and Inherent Abilities",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Critical Thinking and Problem Solving"
+                },
+                "confidence": 0.87,
+                "classificationConfidence": 0.87,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394807,
+                "rectangle": {
+                    "x0": 370.53534,
+                    "y0": 544.33813,
+                    "x1": 427.06842,
+                    "y1": 553.00336,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 370.53534,
+                        "y0": 544.33813,
+                        "x1": 427.06842,
+                        "y1": 553.00336,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Collaboration,",
+                "parsed": {
+                    "name": "Collaboration",
+                    "type": "Common Skill",
+                    "emsiId": "KS7AASDV6UOE7VFBGF4D",
+                    "escoId": "326809fc-238d-40c2-881e-40042f7f2f0d",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Collaboration",
+                    "category": "Media and Communications",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Communication"
+                },
+                "confidence": 0.953,
+                "classificationConfidence": 0.953,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394808,
+                "rectangle": {
+                    "x0": 430.2656,
+                    "y0": 544.33813,
+                    "x1": 471.48013,
+                    "y1": 553.4914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 430.2656,
+                        "y0": 544.33813,
+                        "x1": 471.48013,
+                        "y1": 553.4914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Flexibility",
+                "parsed": {
+                    "name": "Flexible Type",
+                    "type": "Specialized Skill",
+                    "emsiId": "KSMNQ4G7VW3A294E2GRQ",
+                    "isLanguage": False,
+                    "isSoftware": False
+                },
+                "confidence": 0.947,
+                "classificationConfidence": 0.947,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394809,
+                "rectangle": {
+                    "x0": 491.28067,
+                    "y0": 544.33813,
+                    "x1": 535.38367,
+                    "y1": 551.4795,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 491.28067,
+                        "y0": 544.33813,
+                        "x1": 535.38367,
+                        "y1": 551.4795,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Motivation",
+                "parsed": {
+                    "name": "Self-Motivation",
+                    "type": "Common Skill",
+                    "emsiId": "ESED820E6065D9AA8D6F",
+                    "escoId": "001115fb-569f-4ee6-8381-c6807ef2527f",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Motivation",
+                    "category": "Physical and Inherent Abilities",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Initiative and Leadership"
+                },
+                "confidence": 0.94,
+                "classificationConfidence": 0.94,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394810,
+                "rectangle": {
+                    "x0": 191.4386,
+                    "y0": 558.73816,
+                    "x1": 205.80092,
+                    "y1": 567.4034,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 191.4386,
+                        "y0": 558.73816,
+                        "x1": 205.80092,
+                        "y1": 567.4034,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Git,",
+                "parsed": {
+                    "name": "Git (Version Control System)",
+                    "type": "Specialized Skill",
+                    "emsiId": "ESA91D8112EB9ECA3570",
+                    "escoId": "9d2e926f-53d9-41f5-98f3-19dfaa687f3f",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Git",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Version Control"
+                },
+                "confidence": 0.976,
+                "classificationConfidence": 0.976,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394811,
+                "rectangle": {
+                    "x0": 208.7192,
+                    "y0": 558.73816,
+                    "x1": 244.64491,
+                    "y1": 567.4034,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 208.7192,
+                        "y0": 558.73816,
+                        "x1": 244.64491,
+                        "y1": 567.4034,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "NeoVim,",
+                "parsed": {
+                    "name": "Text Editor",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS441BV6YG0R7P61XHYP",
+                    "escoId": "925463a7-d51f-4d5b-9f79-4d28cf30acde",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Text_editor",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Software Development Tools"
+                },
+                "confidence": 0.975,
+                "classificationConfidence": 0.975,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394812,
+                "rectangle": {
+                    "x0": 247.85204,
+                    "y0": 558.73816,
+                    "x1": 278.6882,
+                    "y1": 567.4034,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 247.85204,
+                        "y0": 558.73816,
+                        "x1": 278.6882,
+                        "y1": 567.4034,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Docker,",
+                "parsed": {
+                    "name": "Docker (Software)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KSY4WFI1S164RQUBSPCC",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Docker_(software)",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Software Development Tools"
+                },
+                "confidence": 0.974,
+                "classificationConfidence": 0.974,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394813,
+                "rectangle": {
+                    "x0": 281.60648,
+                    "y0": 558.7282,
+                    "x1": 308.17978,
+                    "y1": 567.8914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 281.60648,
+                        "y0": 558.7282,
+                        "x1": 308.17978,
+                        "y1": 567.8914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Neo4j,",
+                "parsed": {
+                    "name": "Neo4j",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS126X96GY4ZNCW5K7BM",
+                    "escoId": "76ef6ed3-1658-4a1a-9593-204d799c6d0c",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Neo4j",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Databases"
+                },
+                "confidence": 0.975,
+                "classificationConfidence": 0.975,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394814,
+                "rectangle": {
+                    "x0": 310.95862,
+                    "y0": 559.0569,
+                    "x1": 332.76105,
+                    "y1": 567.4034,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 310.95862,
+                        "y0": 559.0569,
+                        "x1": 332.76105,
+                        "y1": 567.4034,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "VMs,",
+                "parsed": {
+                    "name": "OpenVMS",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1279X775BT0TFKB76C",
+                    "escoId": "f9a6f35b-01a7-40c9-8b61-b6ee46f97272",
+                    "infoUrl": "https://en.wikipedia.org/wiki/OpenVMS",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Operating Systems"
+                },
+                "confidence": 0.965,
+                "classificationConfidence": 0.965,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394815,
+                "rectangle": {
+                    "x0": 335.96817,
+                    "y0": 558.9075,
+                    "x1": 386.5749,
+                    "y1": 567.8914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 335.96817,
+                        "y0": 558.9075,
+                        "x1": 386.5749,
+                        "y1": 567.8914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "PostgreSQL,",
+                "parsed": {
+                    "name": "PostgreSQL",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS125TB6YR6236RKM563",
+                    "escoId": "a8d07b5a-c1a1-42c6-9d53-db9c7a2ca996",
+                    "infoUrl": "https://en.wikipedia.org/wiki/PostgreSQL",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Databases"
+                },
+                "confidence": 0.966,
+                "classificationConfidence": 0.966,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394816,
+                "rectangle": {
+                    "x0": 389.10474,
+                    "y0": 558.73816,
+                    "x1": 421.5644,
+                    "y1": 567.87146,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 389.10474,
+                        "y0": 558.73816,
+                        "x1": 421.5644,
+                        "y1": 567.87146,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Apache,",
+                "parsed": {
+                    "name": "Apache HTTP Server",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120JL793T1ZJGT7KM3",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Apache_HTTP_Server",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Servers"
+                },
+                "confidence": 0.974,
+                "classificationConfidence": 0.974,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394817,
+                "rectangle": {
+                    "x0": 424.48267,
+                    "y0": 558.7282,
+                    "x1": 451.6834,
+                    "y1": 567.8914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 424.48267,
+                        "y0": 558.7282,
+                        "x1": 451.6834,
+                        "y1": 567.8914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Vue.js,",
+                "parsed": {
+                    "name": "Vue.js (Javascript Library)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KSGDZ4VMK1WCGQCE1KUT",
+                    "escoId": "9b9de2a4-d8af-4a7b-933a-a8334ae60067",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Vue.js",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "JavaScript and jQuery"
+                },
+                "confidence": 0.968,
+                "classificationConfidence": 0.968,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394818,
+                "rectangle": {
+                    "x0": 471.78275,
+                    "y0": 558.73816,
+                    "x1": 494.42184,
+                    "y1": 567.8914,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 471.78275,
+                        "y0": 558.73816,
+                        "x1": 494.42184,
+                        "y1": 567.8914,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Unity",
+                "parsed": {
+                    "name": "Teamwork",
+                    "type": "Common Skill",
+                    "emsiId": "KSKJX44T33B6D4UCC8CB",
+                    "escoId": "a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Teamwork",
+                    "category": "Physical and Inherent Abilities",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Social Skills"
+                },
+                "confidence": 0.975,
+                "classificationConfidence": 0.975,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394819,
+                "rectangle": {
+                    "x0": 123.66932,
+                    "y0": 573.2582,
+                    "x1": 153.878,
+                    "y1": 582.4114,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 123.66932,
+                        "y0": 573.2582,
+                        "x1": 153.878,
+                        "y1": 582.4114,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Python,",
+                "parsed": {
+                    "name": "Python (Programming Language)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS125LS6N7WP4S6SFTCK",
+                    "escoId": "5ef0c719-5bcb-49f8-b8eb-824388225333",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Scripting Languages"
+                },
+                "confidence": 0.977,
+                "classificationConfidence": 0.977,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394820,
+                "rectangle": {
+                    "x0": 157.33856,
+                    "y0": 573.4275,
+                    "x1": 170.59532,
+                    "y1": 581.92334,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 157.33856,
+                        "y0": 573.4275,
+                        "x1": 170.59532,
+                        "y1": 581.92334,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "C#,",
+                "parsed": {
+                    "name": "C# (Programming Language)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1219N6Z3XQ19V0HSKR",
+                    "escoId": "4c016b68-4116-468c-9dc6-42710c239e4a",
+                    "infoUrl": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Other Programming Languages"
+                },
+                "confidence": 0.939,
+                "classificationConfidence": 0.939,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394821,
+                "rectangle": {
+                    "x0": 173.99167,
+                    "y0": 573.2582,
+                    "x1": 202.85576,
+                    "y1": 581.92334,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 173.99167,
+                        "y0": 573.2582,
+                        "x1": 202.85576,
+                        "y1": 581.92334,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "C/C++,",
+                "parsed": {
+                    "name": "C++ (Programming Language)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1219W70LY1GXZDSKW5",
+                    "escoId": "b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f",
+                    "infoUrl": "https://en.wikipedia.org/wiki/C%2B%2B",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "C and C++"
+                },
+                "confidence": 0.931,
+                "classificationConfidence": 0.931,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394822,
+                "rectangle": {
+                    "x0": 206.25212,
+                    "y0": 573.2582,
+                    "x1": 236.88907,
+                    "y1": 582.4114,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 206.25212,
+                        "y0": 573.2582,
+                        "x1": 236.88907,
+                        "y1": 582.4114,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Cypher,",
+                "parsed": {
+                    "name": "Cryptography",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS122JY6L949K25JM9B7",
+                    "escoId": "8088750d-8388-4170-a76f-48354c469c44",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Cryptography",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Cybersecurity"
+                },
+                "confidence": 0.963,
+                "classificationConfidence": 0.963,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394823,
+                "rectangle": {
+                    "x0": 240.55435,
+                    "y0": 573.4275,
+                    "x1": 260.72333,
+                    "y1": 582.2122,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 240.55435,
+                        "y0": 573.4275,
+                        "x1": 260.72333,
+                        "y1": 582.2122,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "SQL,",
+                "parsed": {
+                    "name": "SQL (Programming Language)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS440W865GC4VRBW6LJP",
+                    "escoId": "598de5b0-5b58-4ea7-8058-a4bc4d18c742",
+                    "infoUrl": "https://en.wikipedia.org/wiki/SQL_(programming_language)",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Query Languages"
+                },
+                "confidence": 0.968,
+                "classificationConfidence": 0.968,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394824,
+                "rectangle": {
+                    "x0": 263.96033,
+                    "y0": 573.2582,
+                    "x1": 312.0771,
+                    "y1": 580.4094,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 263.96033,
+                        "y0": 573.2582,
+                        "x1": 312.0771,
+                        "y1": 580.4094,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "HTML/CSS",
+                "parsed": {
+                    "name": "HyperText Markup Language (HTML)",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1200578T5QCYT0Z98G",
+                    "escoId": "69bbd53f-fbb0-4476-b4b2-ef7844464e28",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Hypertext_Markup_Language_(HTML)",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Web Design and Development"
+                },
+                "confidence": 0.967,
+                "classificationConfidence": 0.967,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394825,
+                "rectangle": {
+                    "x0": 332.3258,
+                    "y0": 573.2582,
+                    "x1": 418.57935,
+                    "y1": 582.4114,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 332.3258,
+                        "y0": 573.2582,
+                        "x1": 418.57935,
+                        "y1": 582.4114,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "JavaScript/Typescript",
+                "parsed": {
+                    "name": "TypeScript",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS441LF7187KS0CV4B6Y",
+                    "escoId": "867137fb-ff1b-4ca3-99f3-cb6969aa2c68",
+                    "infoUrl": "https://en.wikipedia.org/wiki/TypeScript",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": True,
+                    "subCategory": "Scripting Languages"
+                },
+                "confidence": 0.97,
+                "classificationConfidence": 0.97,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394826,
+                "rectangle": {
+                    "x0": 36.06972,
+                    "y0": 629.08813,
+                    "x1": 126.60613,
+                    "y1": 638.2414,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 36.06972,
+                        "y0": 629.08813,
+                        "x1": 126.60613,
+                        "y1": 638.2414,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Software Development",
+                "parsed": {
+                    "name": "Software Development",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120L96KMYTDJ48NRSH",
+                    "escoId": "83b33952-3872-46ec-9a2e-b28f91303a7e",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Software_Development",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Software Development"
+                },
+                "confidence": 0.631,
+                "classificationConfidence": 0.631,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394827,
+                "rectangle": {
+                    "x0": 312.1297,
+                    "y0": 643.36816,
+                    "x1": 392.248,
+                    "y1": 652.52136,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 312.1297,
+                        "y0": 643.36816,
+                        "x1": 392.248,
+                        "y1": 652.52136,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "agile methodologies",
+                "parsed": {
+                    "name": "Agile Methodology",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS120B874P2P6BK1MQ0T",
+                    "escoId": "dba46f87-0831-49cd-a1c7-340a653c0221",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Agile_software_development",
+                    "category": "Information Technology",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Agile Software Development"
+                },
+                "confidence": 0.576,
+                "classificationConfidence": 0.576,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394828,
+                "rectangle": {
+                    "x0": 87.77208,
+                    "y0": 657.84686,
+                    "x1": 171.77472,
+                    "y1": 666.6814,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 87.77208,
+                        "y0": 657.84686,
+                        "x1": 171.77472,
+                        "y1": 666.6814,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Project Management",
+                "parsed": {
+                    "name": "Project Management",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1267F6MSPN366LX7ST",
+                    "escoId": "7111b95d-0ce3-441a-9d92-4c75d05c4388",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Project_management",
+                    "category": "Business",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Project Management"
+                },
+                "confidence": 0.954,
+                "classificationConfidence": 0.954,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394829,
+                "rectangle": {
+                    "x0": 303.34787,
+                    "y0": 672.3982,
+                    "x1": 384.79077,
+                    "y1": 681.5614,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 303.34787,
+                        "y0": 672.3982,
+                        "x1": 384.79077,
+                        "y1": 681.5614,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "project management",
+                "parsed": {
+                    "name": "Project Management",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS1267F6MSPN366LX7ST",
+                    "escoId": "7111b95d-0ce3-441a-9d92-4c75d05c4388",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Project_management",
+                    "category": "Business",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Project Management"
+                },
+                "confidence": 0.874,
+                "classificationConfidence": 0.874,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394830,
+                "rectangle": {
+                    "x0": 404.55145,
+                    "y0": 672.40814,
+                    "x1": 511.9802,
+                    "y1": 681.5614,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 404.55145,
+                        "y0": 672.40814,
+                        "x1": 511.9802,
+                        "y1": 681.5614,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "engineering design process",
+                "parsed": {
+                    "name": "Engineering Design Process",
+                    "type": "Specialized Skill",
+                    "emsiId": "KS122W179TCW8RVX29ZR",
+                    "escoId": "72a74f69-5cf1-43c5-99b9-62a444578919",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Engineering_design_process",
+                    "category": "Engineering",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Drafting and Engineering Design"
+                },
+                "confidence": 0.755,
+                "classificationConfidence": 0.755,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394831,
+                "rectangle": {
+                    "x0": 35.69124,
+                    "y0": 686.80414,
+                    "x1": 106.43712,
+                    "y1": 695.9574,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 35.69124,
+                        "y0": 686.80414,
+                        "x1": 106.43712,
+                        "y1": 695.9574,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Lab Management",
+                "parsed": {
+                    "name": "Management",
+                    "type": "Common Skill",
+                    "emsiId": "KS1218W78FGVPVP2KXPX",
+                    "escoId": "0a48d064-dd04-47fb-a00d-85e9b4874033",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Management",
+                    "category": "Business",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Business Management"
+                },
+                "confidence": 0.642,
+                "classificationConfidence": 0.642,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            },
+            {
+                "id": 506394832,
+                "rectangle": {
+                    "x0": 419.60266,
+                    "y0": 701.80414,
+                    "x1": 459.43268,
+                    "y1": 708.9455,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 419.60266,
+                        "y0": 701.80414,
+                        "x1": 459.43268,
+                        "y1": 708.9455,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "teamwork",
+                "parsed": {
+                    "name": "Management",
+                    "type": "Common Skill",
+                    "emsiId": "KS1218W78FGVPVP2KXPX",
+                    "escoId": "0a48d064-dd04-47fb-a00d-85e9b4874033",
+                    "infoUrl": "https://en.wikipedia.org/wiki/Management",
+                    "category": "Business",
+                    "isLanguage": False,
+                    "isSoftware": False,
+                    "subCategory": "Business Management"
+                },
+                "confidence": 0.758,
+                "classificationConfidence": 0.758,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "rAIARBHa",
+                "contentType": "enum",
+                "parent": None
+            }
+        ],
+        "summary": None,
+        "totalYearsExperience": {
+            "id": 506394875,
+            "rectangle": None,
+            "rectangles": [],
+            "document": "JXOznKnx",
+            "pageIndex": 0,
+            "raw": None,
+            "parsed": 3.3,
+            "confidence": None,
+            "classificationConfidence": None,
+            "textExtractionConfidence": 1.0,
+            "isVerified": False,
+            "isClientVerified": False,
+            "isAutoVerified": False,
+            "verifiedBy": None,
+            "dataPoint": "kmXcmhNj",
+            "contentType": "float",
+            "parent": None
+        },
+        "website": [
+            {
+                "id": 506394833,
+                "rectangle": {
+                    "x0": 188.1188,
+                    "y0": 73.52814,
+                    "x1": 314.26904,
+                    "y1": 80.66943,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 188.1188,
+                        "y0": 73.52814,
+                        "x1": 314.26904,
+                        "y1": 80.66943,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "linkedin.com/in/derek-corniello",
+                "parsed": {
+                    "url": "https://linkedin.com/in/derek-corniello",
+                    "domain": "linkedin.com"
+                },
+                "confidence": 0.982,
+                "classificationConfidence": 0.982,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "GYIADckm",
+                "contentType": "url",
+                "parent": None
+            },
+            {
+                "id": 506394834,
+                "rectangle": {
+                    "x0": 357.3688,
+                    "y0": 73.52814,
+                    "x1": 466.84912,
+                    "y1": 82.6814,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 357.3688,
+                        "y0": 73.52814,
+                        "x1": 466.84912,
+                        "y1": 82.6814,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "github.com/DerekCorniello",
+                "parsed": {
+                    "url": "https://github.com/DerekCorniello",
+                    "domain": "github.com"
+                },
+                "confidence": 0.982,
+                "classificationConfidence": 0.982,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "GYIADckm",
+                "contentType": "url",
+                "parent": None
+            }
+        ],
+        "willingToRelocate": None,
+        "workExperience": [
+            {
+                "id": 506394848,
+                "rectangle": {
+                    "x0": 36.06972,
+                    "y0": 188.76752,
+                    "x1": 575.60236,
+                    "y1": 283.1114,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 36.06972,
+                        "y0": 188.76752,
+                        "x1": 575.60236,
+                        "y1": 283.1114,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Siemens Digital Industries Software – Milford, OH January 2024 – Present Software Engineering Research and Development Intern • Collaborated with three cross-functional teams to design, develop, and test dozens of innovative software solutions • Executed dozens of prototypes to validate hypotheses and analyze insight into future development • Engaged in continuous learning by actively researching new AI training and usage methodologies relevant to current projects • Contributed hundreds of pages of documentation of projects, facilitating seamless knowledge transfer and collaboration • Identifies and resolved software bugs and issues, demonstrating a meticulous approach to debugging and troubleshooting",
+                "parsed": {
+                    "workExperienceOrganization": {
+                        "id": 506394849,
+                        "rectangle": {
+                            "x0": 36.51792,
+                            "y0": 188.76752,
+                            "x1": 188.59714,
+                            "y1": 197.76141,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.51792,
+                                "y0": 188.76752,
+                                "x1": 188.59714,
+                                "y1": 197.76141,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Siemens Digital Industries Software",
+                        "parsed": "Siemens Digital Industries Software",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "Wktrhyll",
+                        "contentType": "text",
+                        "parent": 506394848
+                    },
+                    "workExperienceLocation": {
+                        "id": 506394850,
+                        "rectangle": {
+                            "x0": 199.32921,
+                            "y0": 188.76752,
+                            "x1": 252.74469,
+                            "y1": 197.35303,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 199.32921,
+                                "y0": 188.76752,
+                                "x1": 252.74469,
+                                "y1": 197.35303,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Milford, OH",
+                        "parsed": {
+                            "formatted": "Milford, OH, USA",
+                            "streetNumber": None,
+                            "street": None,
+                            "apartmentNumber": None,
+                            "city": "Milford",
+                            "postalCode": None,
+                            "state": "Ohio",
+                            "stateCode": "OH",
+                            "country": "United States",
+                            "rawInput": "Milford, OH",
+                            "countryCode": "US",
+                            "latitude": 39.1753377,
+                            "longitude": -84.29438209999999,
+                            "poBox": None
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "xEkHjFTi",
+                        "contentType": "location",
+                        "parent": 506394848
+                    },
+                    "workExperienceDateRange": {
+                        "id": 506394851,
+                        "rectangle": {
+                            "x0": 475.76956,
+                            "y0": 188.78741,
+                            "x1": 575.60236,
+                            "y1": 197.76141,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 475.76956,
+                                "y0": 188.78741,
+                                "x1": 575.60236,
+                                "y1": 197.76141,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "January 2024 – Present",
+                        "parsed": {
+                            "end": {
+                                "day": 10,
+                                "date": "2024-11-10",
+                                "year": 2024,
+                                "month": 11,
+                                "isCurrent": True
+                            },
+                            "start": {
+                                "day": None,
+                                "date": "2024-01-01",
+                                "year": 2024,
+                                "month": 1,
+                                "isCurrent": False
+                            },
+                            "durationInMonths": 10
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "tRNnYWxv",
+                        "contentType": "daterange",
+                        "parent": 506394848
+                    },
+                    "jobTitle": {
+                        "id": 506394852,
+                        "rectangle": {
+                            "x0": 36.06972,
+                            "y0": 203.00812,
+                            "x1": 261.50433,
+                            "y1": 212.16138,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.06972,
+                                "y0": 203.00812,
+                                "x1": 261.50433,
+                                "y1": 212.16138,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Software Engineering Research and Development Intern",
+                        "parsed": "Software Engineering Research and Development Intern",
+                        "confidence": 0.981,
+                        "classificationConfidence": 0.981,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "vHnfkLNn",
+                        "contentType": "text",
+                        "parent": 506394848
+                    },
+                    "jobDescription": {
+                        "id": 506394853,
+                        "rectangle": {
+                            "x0": 54.51792,
+                            "y0": 218.24817,
+                            "x1": 572.46436,
+                            "y1": 283.1114,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 54.51792,
+                                "y0": 218.24817,
+                                "x1": 572.46436,
+                                "y1": 283.1114,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "• Collaborated with three cross-functional teams to design, develop, and test dozens of innovative software solutions • Executed dozens of prototypes to validate hypotheses and analyze insight into future development • Engaged in continuous learning by actively researching new AI training and usage methodologies relevant to current projects • Contributed hundreds of pages of documentation of projects, facilitating seamless knowledge transfer and collaboration • Identifies and resolved software bugs and issues, demonstrating a meticulous approach to debugging and troubleshooting",
+                        "parsed": "•  Collaborated with three cross-functional teams to design, develop, and test dozens of innovative software solutions \n•  Executed dozens of prototypes to validate hypotheses and analyze insight into future development \n•  Engaged in continuous learning by actively researching new AI training and usage methodologies relevant to current projects \n•  Contributed hundreds of pages of documentation of projects, facilitating seamless knowledge transfer and collaboration \n•  Identifies and resolved software bugs and issues, demonstrating a meticulous approach to debugging and troubleshooting",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "TwzsGUDa",
+                        "contentType": "text",
+                        "parent": 506394848
+                    },
+                    "workExperienceType": {
+                        "id": 506394854,
+                        "rectangle": None,
+                        "rectangles": [],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": None,
+                        "parsed": {
+                            "id": 7879,
+                            "label": "Internship",
+                            "value": "Internship"
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "YjhlkHwh",
+                        "contentType": "enum",
+                        "parent": 506394848
+                    }
+                },
+                "confidence": 1.0,
+                "classificationConfidence": 1.0,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "NyGRdLTM",
+                "contentType": "group",
+                "parent": None
+            },
+            {
+                "id": 506394855,
+                "rectangle": {
+                    "x0": 35.77092,
+                    "y0": 303.0375,
+                    "x1": 574.52234,
+                    "y1": 397.35138,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 35.77092,
+                        "y0": 303.0375,
+                        "x1": 574.52234,
+                        "y1": 397.35138,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "University of Cincinnati College of Engineering and Applied Science – Cincinnati, OH August 2023 – Present Peer Teaching Assistant (Seasonal) • Assisted in planning and delivering course materials to lead a productive classroom in active learning • Fostered learning in over 75 students per semester through tutoring and mentoring outside of class • Sustained trust with management to act with integrity and finish tasks efficiently and on time • Collaborated with faculty and other TAs to continuously improve course delivery and assessment methods • Managed student records, attendance, and grading systems, ensuring accuracy and confidentiality",
+                "parsed": {
+                    "workExperienceLocation": {
+                        "id": 506394857,
+                        "rectangle": {
+                            "x0": 337.4284,
+                            "y0": 303.0375,
+                            "x1": 402.43958,
+                            "y1": 311.62302,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 337.4284,
+                                "y0": 303.0375,
+                                "x1": 402.43958,
+                                "y1": 311.62302,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Cincinnati, OH",
+                        "parsed": {
+                            "formatted": "Cincinnati, OH, USA",
+                            "streetNumber": None,
+                            "street": None,
+                            "apartmentNumber": None,
+                            "city": "Cincinnati",
+                            "postalCode": None,
+                            "state": "Ohio",
+                            "stateCode": "OH",
+                            "country": "United States",
+                            "rawInput": "Cincinnati, OH",
+                            "countryCode": "US",
+                            "latitude": 39.1031182,
+                            "longitude": -84.5120196,
+                            "poBox": None
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "xEkHjFTi",
+                        "contentType": "location",
+                        "parent": 506394855
+                    },
+                    "workExperienceOrganization": {
+                        "id": 506394856,
+                        "rectangle": {
+                            "x0": 36.22908,
+                            "y0": 303.0375,
+                            "x1": 326.50604,
+                            "y1": 312.03137,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.22908,
+                                "y0": 303.0375,
+                                "x1": 326.50604,
+                                "y1": 312.03137,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "University of Cincinnati College of Engineering and Applied Science",
+                        "parsed": "University of Cincinnati College of Engineering and Applied Science",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "Wktrhyll",
+                        "contentType": "text",
+                        "parent": 506394855
+                    },
+                    "workExperienceDateRange": {
+                        "id": 506394858,
+                        "rectangle": {
+                            "x0": 479.8197,
+                            "y0": 303.05743,
+                            "x1": 574.52234,
+                            "y1": 312.03137,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 479.8197,
+                                "y0": 303.05743,
+                                "x1": 574.52234,
+                                "y1": 312.03137,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "August 2023 – Present",
+                        "parsed": {
+                            "end": {
+                                "day": 10,
+                                "date": "2024-11-10",
+                                "year": 2024,
+                                "month": 11,
+                                "isCurrent": True
+                            },
+                            "start": {
+                                "day": None,
+                                "date": "2023-08-01",
+                                "year": 2023,
+                                "month": 8,
+                                "isCurrent": False
+                            },
+                            "durationInMonths": 15
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "tRNnYWxv",
+                        "contentType": "daterange",
+                        "parent": 506394855
+                    },
+                    "jobTitle": {
+                        "id": 506394859,
+                        "rectangle": {
+                            "x0": 35.77092,
+                            "y0": 317.27814,
+                            "x1": 176.72108,
+                            "y1": 326.43137,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 35.77092,
+                                "y0": 317.27814,
+                                "x1": 176.72108,
+                                "y1": 326.43137,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Peer Teaching Assistant (Seasonal)",
+                        "parsed": "Peer Teaching Assistant (Seasonal)",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "vHnfkLNn",
+                        "contentType": "text",
+                        "parent": 506394855
+                    },
+                    "jobDescription": {
+                        "id": 506394860,
+                        "rectangle": {
+                            "x0": 54.51792,
+                            "y0": 332.39816,
+                            "x1": 496.76837,
+                            "y1": 397.35138,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 54.51792,
+                                "y0": 332.39816,
+                                "x1": 496.76837,
+                                "y1": 397.35138,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "• Assisted in planning and delivering course materials to lead a productive classroom in active learning • Fostered learning in over 75 students per semester through tutoring and mentoring outside of class • Sustained trust with management to act with integrity and finish tasks efficiently and on time • Collaborated with faculty and other TAs to continuously improve course delivery and assessment methods • Managed student records, attendance, and grading systems, ensuring accuracy and confidentiality",
+                        "parsed": "•  Assisted in planning and delivering course materials to lead a productive classroom in active learning \n•  Fostered learning in over 75 students per semester through tutoring and mentoring outside of class \n•  Sustained trust with management to act with integrity and finish tasks efficiently and on time \n•  Collaborated with faculty and other TAs to continuously improve course delivery and assessment methods \n•  Managed student records, attendance, and grading systems, ensuring accuracy and confidentiality",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "TwzsGUDa",
+                        "contentType": "text",
+                        "parent": 506394855
+                    },
+                    "workExperienceType": {
+                        "id": 506394861,
+                        "rectangle": None,
+                        "rectangles": [],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": None,
+                        "parsed": {
+                            "id": 7879,
+                            "label": "Internship",
+                            "value": "Internship"
+                        },
+                        "confidence": 0.651,
+                        "classificationConfidence": 0.651,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "YjhlkHwh",
+                        "contentType": "enum",
+                        "parent": 506394855
+                    }
+                },
+                "confidence": 1.0,
+                "classificationConfidence": 1.0,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "NyGRdLTM",
+                "contentType": "group",
+                "parent": None
+            },
+            {
+                "id": 506394862,
+                "rectangle": {
+                    "x0": 35.74104,
+                    "y0": 417.17752,
+                    "x1": 575.71985,
+                    "y1": 511.85138,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 35.74104,
+                        "y0": 417.17752,
+                        "x1": 575.71985,
+                        "y1": 511.85138,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "Chipotle – Brunswick, OH / Hyde Park, OH August 2021 – April 2024 Kitchen Leader • Oversaw daily workflow of food service from receiving, storing, and serving of food • Conserved the safety of nearly 50 crew members whilst communicating with upper management daily • Maintained a clean restaurant environment, establishing attentiveness to detail with an "A" health inspection score • Trained over ten crew members and managers as well as assisted coworkers with various duties • Modeled time management skills as demonstrated by increased food quality and output by about 10%",
+                "parsed": {
+                    "workExperienceDateRange": {
+                        "id": 506394865,
+                        "rectangle": {
+                            "x0": 468.29968,
+                            "y0": 417.17752,
+                            "x1": 575.71985,
+                            "y1": 426.1714,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 468.29968,
+                                "y0": 417.17752,
+                                "x1": 575.71985,
+                                "y1": 426.1714,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "August 2021 – April 2024",
+                        "parsed": {
+                            "end": {
+                                "day": None,
+                                "date": "2024-04-01",
+                                "year": 2024,
+                                "month": 4,
+                                "isCurrent": False
+                            },
+                            "start": {
+                                "day": None,
+                                "date": "2021-08-01",
+                                "year": 2021,
+                                "month": 8,
+                                "isCurrent": False
+                            },
+                            "durationInMonths": 32
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "tRNnYWxv",
+                        "contentType": "daterange",
+                        "parent": 506394862
+                    },
+                    "workExperienceOrganization": {
+                        "id": 506394863,
+                        "rectangle": {
+                            "x0": 36.3984,
+                            "y0": 417.17752,
+                            "x1": 72.32412,
+                            "y1": 426.1515,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.3984,
+                                "y0": 417.17752,
+                                "x1": 72.32412,
+                                "y1": 426.1515,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Chipotle",
+                        "parsed": "Chipotle",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "Wktrhyll",
+                        "contentType": "text",
+                        "parent": 506394862
+                    },
+                    "workExperienceLocation": {
+                        "id": 506394864,
+                        "rectangle": {
+                            "x0": 157.23468,
+                            "y0": 417.18747,
+                            "x1": 223.80731,
+                            "y1": 426.1714,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 157.23468,
+                                "y0": 417.18747,
+                                "x1": 223.80731,
+                                "y1": 426.1714,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Hyde Park, OH",
+                        "parsed": {
+                            "formatted": "Hyde Park, Cincinnati, OH, USA",
+                            "streetNumber": None,
+                            "street": None,
+                            "apartmentNumber": None,
+                            "city": "Cincinnati",
+                            "postalCode": None,
+                            "state": "Ohio",
+                            "stateCode": "OH",
+                            "country": "United States",
+                            "rawInput": "Hyde Park, OH",
+                            "countryCode": "US",
+                            "latitude": 39.1352483,
+                            "longitude": -84.4437332,
+                            "poBox": None
+                        },
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "xEkHjFTi",
+                        "contentType": "location",
+                        "parent": 506394862
+                    },
+                    "jobTitle": {
+                        "id": 506394866,
+                        "rectangle": {
+                            "x0": 35.74104,
+                            "y0": 431.29816,
+                            "x1": 98.13783,
+                            "y1": 438.41956,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 35.74104,
+                                "y0": 431.29816,
+                                "x1": 98.13783,
+                                "y1": 438.41956,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Kitchen Leader",
+                        "parsed": "Kitchen Leader",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "vHnfkLNn",
+                        "contentType": "text",
+                        "parent": 506394862
+                    },
+                    "jobDescription": {
+                        "id": 506394867,
+                        "rectangle": {
+                            "x0": 54.51792,
+                            "y0": 447.01816,
+                            "x1": 529.26794,
+                            "y1": 511.85138,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 54.51792,
+                                "y0": 447.01816,
+                                "x1": 529.26794,
+                                "y1": 511.85138,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "• Oversaw daily workflow of food service from receiving, storing, and serving of food • Conserved the safety of nearly 50 crew members whilst communicating with upper management daily • Maintained a clean restaurant environment, establishing attentiveness to detail with an "A" health inspection score • Trained over ten crew members and managers as well as assisted coworkers with various duties • Modeled time management skills as demonstrated by increased food quality and output by about 10%",
+                        "parsed": "•  Oversaw daily workflow of food service from receiving, storing, and serving of food \n•  Conserved the safety of nearly 50 crew members whilst communicating with upper management daily \n•  Maintained a clean restaurant environment, establishing attentiveness to detail with an "A" health inspection score \n•  Trained over ten crew members and managers as well as assisted coworkers with various duties \n•  Modeled time management skills as demonstrated by increased food quality and output by about 10%",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "TwzsGUDa",
+                        "contentType": "text",
+                        "parent": 506394862
+                    },
+                    "workExperienceType": {
+                        "id": 506394868,
+                        "rectangle": None,
+                        "rectangles": [],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": None,
+                        "parsed": {
+                            "id": 7874,
+                            "label": "Full time",
+                            "value": "Full time"
+                        },
+                        "confidence": 0.981,
+                        "classificationConfidence": 0.981,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "YjhlkHwh",
+                        "contentType": "enum",
+                        "parent": 506394862
+                    }
+                },
+                "confidence": 1.0,
+                "classificationConfidence": 1.0,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "NyGRdLTM",
+                "contentType": "group",
+                "parent": None
+            },
+            {
+                "id": 506394869,
+                "rectangle": {
+                    "x0": 35.69124,
+                    "y0": 614.9675,
+                    "x1": 529.0033,
+                    "y1": 710.9574,
+                    "pageIndex": 0
+                },
+                "rectangles": [
+                    {
+                        "x0": 35.69124,
+                        "y0": 614.9675,
+                        "x1": 529.0033,
+                        "y1": 710.9574,
+                        "pageIndex": 0
+                    }
+                ],
+                "document": "JXOznKnx",
+                "pageIndex": 0,
+                "raw": "University of Cincinnati Software Development Teams Responsibilities: Managed and developed software through agile methodologies to deliver timely solutions Engineering Project Management and Documentation Responsibilities: Developed a solution to problems using project management and engineering design process Lab Management Team Responsibilities: Sustained a working lab space of eight 3D printers for teams through teamwork and maintenance",
+                "parsed": {
+                    "workExperienceOrganization": {
+                        "id": 506394870,
+                        "rectangle": {
+                            "x0": 36.22908,
+                            "y0": 614.9675,
+                            "x1": 138.51828,
+                            "y1": 623.9614,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.22908,
+                                "y0": 614.9675,
+                                "x1": 138.51828,
+                                "y1": 623.9614,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "University of Cincinnati",
+                        "parsed": "University of Cincinnati",
+                        "confidence": 0.943,
+                        "classificationConfidence": 0.943,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "Wktrhyll",
+                        "contentType": "text",
+                        "parent": 506394869
+                    },
+                    "jobTitle": {
+                        "id": 506394871,
+                        "rectangle": {
+                            "x0": 36.06972,
+                            "y0": 629.08813,
+                            "x1": 153.87662,
+                            "y1": 638.2414,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 36.06972,
+                                "y0": 629.08813,
+                                "x1": 153.87662,
+                                "y1": 638.2414,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Software Development Teams",
+                        "parsed": "Software Development Teams",
+                        "confidence": 0.776,
+                        "classificationConfidence": 0.776,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "vHnfkLNn",
+                        "contentType": "text",
+                        "parent": 506394869
+                    },
+                    "jobDescription": {
+                        "id": 506394872,
+                        "rectangle": {
+                            "x0": 141.69418,
+                            "y0": 701.80414,
+                            "x1": 529.0033,
+                            "y1": 710.9574,
+                            "pageIndex": 0
+                        },
+                        "rectangles": [
+                            {
+                                "x0": 141.69418,
+                                "y0": 701.80414,
+                                "x1": 529.0033,
+                                "y1": 710.9574,
+                                "pageIndex": 0
+                            }
+                        ],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": "Sustained a working lab space of eight 3D printers for teams through teamwork and maintenance",
+                        "parsed": "Sustained a working lab space of eight 3D printers for teams through teamwork and maintenance",
+                        "confidence": 0.982,
+                        "classificationConfidence": 0.982,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "TwzsGUDa",
+                        "contentType": "text",
+                        "parent": 506394869
+                    },
+                    "workExperienceType": {
+                        "id": 506394873,
+                        "rectangle": None,
+                        "rectangles": [],
+                        "document": "JXOznKnx",
+                        "pageIndex": 0,
+                        "raw": None,
+                        "parsed": {
+                            "id": 7874,
+                            "label": "Full time",
+                            "value": "Full time"
+                        },
+                        "confidence": 0.981,
+                        "classificationConfidence": 0.981,
+                        "textExtractionConfidence": 1.0,
+                        "isVerified": False,
+                        "isClientVerified": False,
+                        "isAutoVerified": False,
+                        "verifiedBy": None,
+                        "dataPoint": "YjhlkHwh",
+                        "contentType": "enum",
+                        "parent": 506394869
+                    }
+                },
+                "confidence": 1.0,
+                "classificationConfidence": 1.0,
+                "textExtractionConfidence": 1.0,
+                "isVerified": False,
+                "isClientVerified": False,
+                "isAutoVerified": False,
+                "verifiedBy": None,
+                "dataPoint": "NyGRdLTM",
+                "contentType": "group",
+                "parent": None
+            }
+        ],
+        "rawText": "Derek Corniello \n440.821.5281 | corniedj@mail.uc.edu | derekcorniello.github.io LinkedIn: linkedin.com/in/derek-corniello | GitHub: github.com/DerekCorniello \nEDUCATION University of Cincinnati, Cincinnati, Ohio Expected Graduation: May 2027 Bachelor of Science, Computer Science - Master of Engineering, Software Engineering GPA: 3.9 Relevant Courses: Software Engineering, Web Applications, Analysis of Algorithms, Computer Networking and Data Structures \nEXPERIENCE Siemens Digital Industries Software – Milford, OH January 2024 – Present Software Engineering Research and Development Intern \n• Collaborated with three cross-functional teams to design, develop, and test dozens of innovative software solutions \n• Executed dozens of prototypes to validate hypotheses and analyze insight into future development \n• Engaged in continuous learning by actively researching new AI training and usage methodologies relevant to current projects \n• Contributed hundreds of pages of documentation of projects, facilitating seamless knowledge transfer and collaboration \n• Identifies and resolved software bugs and issues, demonstrating a meticulous approach to debugging and troubleshooting \nUniversity of Cincinnati College of Engineering and Applied Science – Cincinnati, OH August 2023 – Present Peer Teaching Assistant (Seasonal) \n• Assisted in planning and delivering course materials to lead a productive classroom in active learning \n• Fostered learning in over 75 students per semester through tutoring and mentoring outside of class \n• Sustained trust with management to act with integrity and finish tasks efficiently and on time \n• Collaborated with faculty and other TAs to continuously improve course delivery and assessment methods \n• Managed student records, attendance, and grading systems, ensuring accuracy and confidentiality \nChipotle – Brunswick, OH / Hyde Park, OH August 2021 – April 2024 Kitchen Leader \n• Oversaw daily workflow of food service from receiving, storing, and serving of food \n• Conserved the safety of nearly 50 crew members whilst communicating with upper management daily \n• Maintained a clean restaurant environment, establishing attentiveness to detail with an "A" health inspection score \n• Trained over ten crew members and managers as well as assisted coworkers with various duties \n• Modeled time management skills as demonstrated by increased food quality and output by about 10% \nSKILLS Soft Skills: Technical Communication, Documentation, Problem Solving, Collaboration, Flexibility and Motivation Software and Frameworks: Git, NeoVim, Docker, Neo4j, VMs, PostgreSQL, Apache, Vue.js, and Unity Languages: Python, C#, C/C++, Cypher, SQL, HTML/CSS and JavaScript/Typescript \nPROJECT EXPERIENCE AND ACTIVITIES University of Cincinnati Software Development Teams Responsibilities: Managed and developed software through agile methodologies to deliver timely solutions Engineering Project Management and Documentation Responsibilities: Developed a solution to problems using project management and engineering design process Lab Management Team Responsibilities: Sustained a working lab space of eight 3D printers for teams through teamwork and maintenance \nAvailable to Co-Op Summer 2025"
+    },
+    "meta": {
+        "identifier": "JXOznKnx",
+        "customIdentifier": None,
+        "ready": True,
+        "failed": False,
+        "readyDt": "2024-11-10T06:53:47.156660Z",
+        "fileName": "DerekCornielloResume.pdf",
+        "expiryTime": None,
+        "language": "en",
+        "pdf": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/DerekCornielloResume_5Nx9i2g.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNPQBZTVP3%2F20241110%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20241110T065347Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0yIkcwRQIgCfzNTZiyxjZPC5pfGTZHHhk1O1MVp9UePwPRORITf88CIQCMmOVT39mXwSzu%2FJ1GwLxAB7H1aa7y7k1IvmtBDUTk1SqSBQiI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDMzNTU5NDU3MTE2MiIMIL%2ByNwHnxfWYhTsBKuYEKD3mlSuHLcqgEBqfgJ%2FDiayyD15JoG0Y0DrKOeBNs17hT1DpJWcTgVrKrKrl2Tewu5tjy6qqo6qToAM%2BSSKV%2FFjBRGmdcarM0bM5gLzfZs%2FzlOrgAfCjhSKhw1OlY1NYGWezh2Us1kED6fmOjqCRHXNUOpadicvxjuwGCQFH2julJMUoXjMUa7e%2BI3Ur%2BF2p5Zz33u3%2FCRPfjAp7b47bI%2FLUjsa1xxOqj9XgvgwxpW8JsOepfhHL25iHcwiVeTqQ6oTB4yHPCMHAqSiRpoIbU%2BIjcSvruX6znyCAvFihG0k5RGdhD9doKRQ4oGAXsfqbbPQuUBrkFYedKmwMiozNfsoux44V0W352zTRo1c1uK7DyBKIF9aDiIsQz28K7FAU930JEMOXRKXvIWOnGpBLY5R8%2BhhRLP0SIXQ8%2BRWgmSdEV83ki99OFdHQnVzQhFGUvrNRi9b8FSgIKSWaxgTidIvd6b0nAVBZzpofEVAvlxz%2FsLJKJajCd61fGae7ShnFP6fPtW2sW131IpD0hJFVGiCXtTBI3jp7yzg9JMXMrKbhYAazSyfpweAbdZHKd8uZ3t5iCFhYE%2BXtXRyU7c1dkMy%2F%2B3%2Flx0Lt3w%2BB9OGEDWo6ns0mog5dYrUOn8Mi2Uh1BvzK7tuAU61bnCpCyJ0h9ANetr8vhsb8WpzIJ9JTejRiv667XBtcL7khXQsQPjQ9aHwzCsULTBA79%2B0%2FgY8MgphXTxnX0kc5zL%2BF4lTwLYwo6ygJ6cfUKNolqp5m%2Fam61%2FQVq0HQ9p8ke1FfQcXdSUwoo6Ap2V%2Bp49TMWG4ku9baLHi4HDswmaPBuQY6mgF%2FUBKZ1uYqJvgjz0QSpkodEzlQrBoI5RPcd3mOWrYE8xc%2BGgHAXBj6jwsrl0sjUYYRJUGArhyz9LiTMNy6AGsE19dVaJ%2FWsvB5SOKqEO3SCJ4L6kU%2FFg9L16RTCkadSJP3sx%2BXnkaTGxyRhH7ZRT3IdlnXRu0p4YIuD38PctXeNebr6tjYEX8G21qrIO3mDDACnCyT8%2Bc2Zern&X-Amz-Signature=cb2c7eaa566231593c5cd87d90eb299ff909656a96d1b79bffdaedd10f5af642",
+        "parentDocument": None,
+        "childDocuments": [],
+        "pages": [
+            {
+                "id": 99443815,
+                "pageIndex": 0,
+                "image": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/pages/99443815_6LB4o3b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNPQBZTVP3%2F20241110%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20241110T065347Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0yIkcwRQIgCfzNTZiyxjZPC5pfGTZHHhk1O1MVp9UePwPRORITf88CIQCMmOVT39mXwSzu%2FJ1GwLxAB7H1aa7y7k1IvmtBDUTk1SqSBQiI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDMzNTU5NDU3MTE2MiIMIL%2ByNwHnxfWYhTsBKuYEKD3mlSuHLcqgEBqfgJ%2FDiayyD15JoG0Y0DrKOeBNs17hT1DpJWcTgVrKrKrl2Tewu5tjy6qqo6qToAM%2BSSKV%2FFjBRGmdcarM0bM5gLzfZs%2FzlOrgAfCjhSKhw1OlY1NYGWezh2Us1kED6fmOjqCRHXNUOpadicvxjuwGCQFH2julJMUoXjMUa7e%2BI3Ur%2BF2p5Zz33u3%2FCRPfjAp7b47bI%2FLUjsa1xxOqj9XgvgwxpW8JsOepfhHL25iHcwiVeTqQ6oTB4yHPCMHAqSiRpoIbU%2BIjcSvruX6znyCAvFihG0k5RGdhD9doKRQ4oGAXsfqbbPQuUBrkFYedKmwMiozNfsoux44V0W352zTRo1c1uK7DyBKIF9aDiIsQz28K7FAU930JEMOXRKXvIWOnGpBLY5R8%2BhhRLP0SIXQ8%2BRWgmSdEV83ki99OFdHQnVzQhFGUvrNRi9b8FSgIKSWaxgTidIvd6b0nAVBZzpofEVAvlxz%2FsLJKJajCd61fGae7ShnFP6fPtW2sW131IpD0hJFVGiCXtTBI3jp7yzg9JMXMrKbhYAazSyfpweAbdZHKd8uZ3t5iCFhYE%2BXtXRyU7c1dkMy%2F%2B3%2Flx0Lt3w%2BB9OGEDWo6ns0mog5dYrUOn8Mi2Uh1BvzK7tuAU61bnCpCyJ0h9ANetr8vhsb8WpzIJ9JTejRiv667XBtcL7khXQsQPjQ9aHwzCsULTBA79%2B0%2FgY8MgphXTxnX0kc5zL%2BF4lTwLYwo6ygJ6cfUKNolqp5m%2Fam61%2FQVq0HQ9p8ke1FfQcXdSUwoo6Ap2V%2Bp49TMWG4ku9baLHi4HDswmaPBuQY6mgF%2FUBKZ1uYqJvgjz0QSpkodEzlQrBoI5RPcd3mOWrYE8xc%2BGgHAXBj6jwsrl0sjUYYRJUGArhyz9LiTMNy6AGsE19dVaJ%2FWsvB5SOKqEO3SCJ4L6kU%2FFg9L16RTCkadSJP3sx%2BXnkaTGxyRhH7ZRT3IdlnXRu0p4YIuD38PctXeNebr6tjYEX8G21qrIO3mDDACnCyT8%2Bc2Zern&X-Amz-Signature=e46de74bb1b5deb1e7474c4e29499b25fb00bf339f313c62058480ed13d85136",
+                "height": 792.0,
+                "width": 612.0,
+                "rotation": 0,
+                "imageTranslated": None
+            }
+        ],
+        "ocrConfidence": None,
+        "reviewUrl": "https://app.affinda.com/review/JXOznKnx?signature=eyJ1c2VyX2lkIjoxNjg2Mn0:1tA1pT:ZCQOBbqibMstzsAkG764bNbWfAptsFUp4DmSyzBCL8k:1tA1pT:hTp-8H1Lq5g2kzSZhEbHkgeSShzHujeuRBtw6w8r6HI",
+        "createdDt": "2024-11-10T06:53:43.104072Z",
+        "errorDetail": None,
+        "file": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/DerekCornielloResume_5Nx9i2g.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNPQBZTVP3%2F20241110%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20241110T065347Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0yIkcwRQIgCfzNTZiyxjZPC5pfGTZHHhk1O1MVp9UePwPRORITf88CIQCMmOVT39mXwSzu%2FJ1GwLxAB7H1aa7y7k1IvmtBDUTk1SqSBQiI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDMzNTU5NDU3MTE2MiIMIL%2ByNwHnxfWYhTsBKuYEKD3mlSuHLcqgEBqfgJ%2FDiayyD15JoG0Y0DrKOeBNs17hT1DpJWcTgVrKrKrl2Tewu5tjy6qqo6qToAM%2BSSKV%2FFjBRGmdcarM0bM5gLzfZs%2FzlOrgAfCjhSKhw1OlY1NYGWezh2Us1kED6fmOjqCRHXNUOpadicvxjuwGCQFH2julJMUoXjMUa7e%2BI3Ur%2BF2p5Zz33u3%2FCRPfjAp7b47bI%2FLUjsa1xxOqj9XgvgwxpW8JsOepfhHL25iHcwiVeTqQ6oTB4yHPCMHAqSiRpoIbU%2BIjcSvruX6znyCAvFihG0k5RGdhD9doKRQ4oGAXsfqbbPQuUBrkFYedKmwMiozNfsoux44V0W352zTRo1c1uK7DyBKIF9aDiIsQz28K7FAU930JEMOXRKXvIWOnGpBLY5R8%2BhhRLP0SIXQ8%2BRWgmSdEV83ki99OFdHQnVzQhFGUvrNRi9b8FSgIKSWaxgTidIvd6b0nAVBZzpofEVAvlxz%2FsLJKJajCd61fGae7ShnFP6fPtW2sW131IpD0hJFVGiCXtTBI3jp7yzg9JMXMrKbhYAazSyfpweAbdZHKd8uZ3t5iCFhYE%2BXtXRyU7c1dkMy%2F%2B3%2Flx0Lt3w%2BB9OGEDWo6ns0mog5dYrUOn8Mi2Uh1BvzK7tuAU61bnCpCyJ0h9ANetr8vhsb8WpzIJ9JTejRiv667XBtcL7khXQsQPjQ9aHwzCsULTBA79%2B0%2FgY8MgphXTxnX0kc5zL%2BF4lTwLYwo6ygJ6cfUKNolqp5m%2Fam61%2FQVq0HQ9p8ke1FfQcXdSUwoo6Ap2V%2Bp49TMWG4ku9baLHi4HDswmaPBuQY6mgF%2FUBKZ1uYqJvgjz0QSpkodEzlQrBoI5RPcd3mOWrYE8xc%2BGgHAXBj6jwsrl0sjUYYRJUGArhyz9LiTMNy6AGsE19dVaJ%2FWsvB5SOKqEO3SCJ4L6kU%2FFg9L16RTCkadSJP3sx%2BXnkaTGxyRhH7ZRT3IdlnXRu0p4YIuD38PctXeNebr6tjYEX8G21qrIO3mDDACnCyT8%2Bc2Zern&X-Amz-Signature=cb2c7eaa566231593c5cd87d90eb299ff909656a96d1b79bffdaedd10f5af642",
+        "collection": {
+            "identifier": "VRWkBEdM",
+            "name": "ResumeParser",
+            "extractor": {
+                "id": 575,
+                "identifier": "resume-v4",
+                "name": "Resume NextGen",
+                "baseExtractor": None,
+                "validatable": True
+            },
+            "validationRules": []
+        },
+        "workspace": {
+            "identifier": "ZPQbPdZu",
+            "name": "ResumeParser"
+        },
+        "tags": [],
+        "isOcrd": False,
+        "isConfirmed": False,
+        "confirmedDt": None,
+        "confirmedBy": None,
+        "isRejected": False,
+        "rejectedDt": None,
+        "rejectedBy": None,
+        "isArchived": False,
+        "archivedDt": None,
+        "errorCode": None,
+        "sourceEmail": None,
+        "sourceEmailAddress": None,
+        "createdBy": {
+            "id": 16862,
+            "name": "Derek Corniello",
+            "username": "corniedj",
+            "email": "corniedj@mail.uc.edu",
+            "avatar": None,
+            "master": None
+        },
+        "regionBias": None,
+        "html": None
+    },
+    "error": {
+        "errorCode": None,
+        "errorDetail": None
+    },
+    "warnings": [],
+    "extractor": "resume-v4-custom_field_type"
+}

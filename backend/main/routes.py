@@ -1,14 +1,11 @@
 from flask import render_template, request, Blueprint, jsonify, abort, redirect, url_for, flash, make_response, send_from_directory
 import os
-import json
-from backend import UPLOAD_FOLDER
-from .generation import get_site
+# from backend import UPLOAD_FOLDER
+# from .generation import get_site
 import requests
 from dotenv import load_dotenv
-from typing import Union, List, Dict
-from pydparser import ResumeParser
-# from pyresparser import ResumeParser
-
+import affinda
+import json
 
 main = Blueprint('main', __name__)
 
@@ -20,8 +17,8 @@ def allowed_file(filename):
 
 
 load_dotenv()
-client_id = os.getenv("CLIENT_ID")
-client_secret = os.getenv("CLIENT_SECRET_KEY")
+api_url = os.getenv("API_URL")
+api_key = os.getenv("API_KEY")
 
 
 @main.route('/', methods=['GET', 'POST'])
@@ -53,8 +50,17 @@ def upload_file():
 
 
 def parse_resume(resumePath):
-    resumeJSON = ResumeParser(resumePath).get_extracted_data()
-    return jsonify(resumeJSON)
+    with open(resumePath) as file:
+        file = {"file": file}
+        headers = {"Authorization": f"Bearer {api_key}"}
+        response = requests.post(api_url, headers=headers, files=file)
+        if response.status_code == 200:
+            parsed_data = response.json()
+            print(parsed_data)
+            with open("data.json", "w+") as j_file:
+                json.dump(parsed_data, file)
+        else:
+            print
 
 
 @main.route('/generate', methods=['POST'])
@@ -114,3 +120,7 @@ def generate():
     except Exception as e:
         print(e)
         return jsonify({"error": "A server error occurred."}), 500
+
+    if __name__ == "__main__":
+        parse_resume(
+            "C:\\Users\\Derek\\OneDrive\\Desktop\\DerekCornielloResume.pdf")
