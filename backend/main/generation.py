@@ -199,20 +199,20 @@ def format_jobs(job):
     if not job:
         return ""
     return JOBS.format(jobs=JOB.format(
-        role=job["title"],
-        company=job["company"],
-        months=job["months"],
-        desc=job["description"]
+        role=job[0]["title"],
+        company=job[0]["company"],
+        months=job[0]["months"],
+        desc=job[0]["desc"]
     ))
 
 def format_schools(education):
     if not education:
         return ""
     return SCHOOLS.format(schools=SCHOOL.format(
-        school=education["name"],
-        majors=", ".join(education["majors"]),
-        degrees=", ".join(education["degrees"]),
-        date_range=education["date_range"]
+        school=education[0]["name"],
+        majors=", ".join(education[0]["majors"]),
+        degrees=", ".join(education[0]["degrees"]),
+        date_range=education[0]["date_range"]
     ))
 
 def format_skills(skills):

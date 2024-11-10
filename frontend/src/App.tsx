@@ -50,7 +50,7 @@ const App: React.FC = () => {
     }
   };
 
-  const handleSubmit = async (event: React.FormEvent) => {
+  const handleUpload = async (event: React.FormEvent) => {
     event.preventDefault();
     if (!selectedFile) return;
 
@@ -61,6 +61,25 @@ const App: React.FC = () => {
 
     try {
       const response = await fetch("http://localhost:5000/upload", {
+        method: "POST",
+        body: formData,
+      });
+      const result: ResumeData = await response.json();
+      console.log(result); // Display the response in the console
+      setData(result); // Update the state with the response data
+    } catch (error) {
+      console.error("Error uploading file:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    const formData = new FormData();
+    console.log(formData);
+    try {
+      const response = await fetch("http://localhost:5000/generate", {
         method: "POST",
         body: formData,
       });
@@ -147,7 +166,7 @@ const App: React.FC = () => {
       <p>Upload your resume to see the extracted data.</p>
 
       {/* File upload form */}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleUpload}>
         <label htmlFor="fileUpload">Upload File:</label>
         <input id="fileUpload" type="file" onChange={handleFileChange} />
         <button type="submit" disabled={loading}>
