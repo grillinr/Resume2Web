@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import ResumeForm from "./ResumeConfigForm";
+import StyleConfigForm from "./StyleConfigForm";
 
 
 interface Education {
@@ -14,7 +15,7 @@ interface Experience {
   title: string | null;
   company: string | null;
   months: string | null;
-  description: string | null;
+  desc: string | null;
 }
 
 interface ResumeData {
@@ -197,6 +198,7 @@ const App: React.FC = () => {
                             onSubmit={handleFormSubmit} // Use the wrapper function
                             onChange={setData}
                         />
+                        <StyleConfigForm />
                         <DownloadButton />
                     </>
                 ) : (

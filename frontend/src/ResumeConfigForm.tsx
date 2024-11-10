@@ -12,7 +12,7 @@ interface Experience {
   title: string | null;
   company: string | null;
   months: string | null;
-  description: string | null;
+  desc: string | null;
 }
 
 interface ResumeData {
@@ -88,7 +88,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({ data, onSubmit, onChange }) => 
       ...data,
       experience: [
         ...data.experience,
-        { title: null, company: null, months: null, description: null },
+        { title: null, company: null, months: null, desc: null },
       ],
     });
   };
@@ -314,7 +314,7 @@ const ResumeForm: React.FC<ResumeFormProps> = ({ data, onSubmit, onChange }) => 
               </label>
               <textarea
                 id={`exp-description-${index}`}
-                value={exp.description || ""}
+                value={exp.desc || ""}
                 onChange={(e) => handleInputChange(e, "experience", index, "description")}
                 className="w-full p-2 border rounded h-32"
               />
