@@ -73,6 +73,13 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+form:hover {
+  transform: scale(1.02);
+  border: #283447 1px solid;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Form fields */
@@ -138,6 +145,7 @@ button:hover {
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+  padding: 1rem;
 }
 
 .input-wrapper {
@@ -169,6 +177,12 @@ button:hover {
   align-items: center;
   gap: 0.5rem;
   border: 1px solid #bfd5e8;
+  transition: transform 0.1s ease-in-out;
+}
+
+.tag:hover {
+  transform: scale(1.05);
+  border-color: #283447;
 }
 
 .remove-tag {
@@ -178,7 +192,7 @@ button:hover {
 }
 
 .remove-tag:hover {
-  color: #b7312d;
+  color: #95111a;
 }
 
 /* Logo animation */

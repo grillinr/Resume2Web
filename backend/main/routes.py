@@ -82,6 +82,8 @@ def upload_file():
         "about": resume_data['summary']
     }
 
+    return jsonify(resume_data)
+
 
 def parse_resume(resumePath):
     # DEBUG LINE:

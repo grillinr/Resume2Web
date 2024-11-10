@@ -1,20 +1,27 @@
 import { useState } from "react";
 import "./App.css";
-import TagList from "./tags";
+import ResumeForm from "./ResumeConfigForm";
+
 
 interface ResumeData {
-  college_name: string | null;
-  company_names: string[] | null;
-  degree: string | null;
-  designation: string | null;
-  email: string | null;
-  experience: string | null;
-  linkedin: string | null;
-  mobile_number: string | null;
   name: string | null;
-  no_of_pages: number | null;
+  email: string | null;
+  phone_number: string | null;
+  links: string[] | null;
   skills: string[] | null;
-  total_experience: number | null;
+  education: {
+    name: string | null;
+    date_range: string | null;
+    majors: string[] | null;
+    degrees: string[] | null;
+  } | null;
+  experience: {
+    title: string | null;
+    company: string | null;
+    months: string | null;
+    description: string | null;
+  } | null;
+  about: string | null;
 }
 
 /* interface PostSuccess {
@@ -68,7 +75,7 @@ const App: React.FC = () => {
   };
 
   const DownloadButton: React.FC = () => {
-    const downloadFile = async () => {
+    const handleFileAction = async () => {
       try {
         const response = await fetch('http://localhost:5000/generate', {
           method: 'POST',
@@ -79,29 +86,58 @@ const App: React.FC = () => {
         });
   
         if (!response.ok) {
-          throw new Error('Failed to download file');
+          throw new Error('Failed to get file content');
         }
   
-        // Create a blob from the response
-        const blob = await response.blob();
-        const url = window.URL.createObjectURL(blob);
-  
-        // Create a link to download the file
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = 'site.html'; // Suggested file name for download
-        document.body.appendChild(link);
-        link.click();
-  
-        // Clean up
-        link.remove();
-        window.URL.revokeObjectURL(url);
+        // Get the HTML content as text
+        const htmlContent = await response.text();
+        
+        // Open content in new tab
+        const newTab = window.open('', '_blank');
+        if (newTab) {
+          newTab.document.write(htmlContent);
+          
+          // Add download button script to the new window
+          const scriptElement = newTab.document.createElement('script');
+          scriptElement.textContent = `
+            function downloadPage() {
+              const blob = new Blob([document.documentElement.outerHTML], { type: 'text/html' });
+              const url = window.URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url;
+              a.download = 'portfolio.html';
+              a.click();
+              window.URL.revokeObjectURL(url);
+            }
+          `;
+          newTab.document.head.appendChild(scriptElement);
+          
+          // Add download button
+          const buttonElement = newTab.document.createElement('button');
+          buttonElement.innerHTML = 'Download';
+          buttonElement.setAttribute('onclick', 'downloadPage()');
+          buttonElement.style.position = 'fixed';
+          buttonElement.style.top = '10px';
+          buttonElement.style.right = '10px';
+          buttonElement.style.zIndex = '9999';
+          buttonElement.style.padding = '8px 16px';
+          buttonElement.style.backgroundColor = '#283447';
+          buttonElement.style.color = '#fff';
+          buttonElement.style.border = 'none';
+          buttonElement.style.borderRadius = '4px';
+          buttonElement.style.cursor = 'pointer';
+          
+          newTab.document.body.appendChild(buttonElement);
+          newTab.document.close();
+        }
       } catch (error) {
-        console.error('Error downloading file:', error);
+        console.error('Error handling file:', error);
       }
     };
   
-    return <button onClick={downloadFile}>Download File</button>;
+    return (
+      <button onClick={handleFileAction}>Preview & Download</button>
+    );
   };
 
   return (
@@ -110,6 +146,7 @@ const App: React.FC = () => {
       <h1>Resume2Web</h1>
       <p>Upload your resume to see the extracted data.</p>
 
+      {/* File upload form */}
       <form onSubmit={handleSubmit}>
         <label htmlFor="fileUpload">Upload File:</label>
         <input id="fileUpload" type="file" onChange={handleFileChange} />
@@ -118,116 +155,21 @@ const App: React.FC = () => {
         </button>
       </form>
 
-      {loading && (
-        <p>Processing... Please wait.</p>
-      )}
-      <br />
+      {loading && <p>Processing... Please wait.</p>}
+      
       <div className="card">
         {result ? (
           <>
-            <form onSubmit={handleSubmit}>
-              <div>
-                <label htmlFor="name">Name:</label>
-                <input
-                  id="name"
-                  type="text"
-                  value={result?.name || ""}
-                  onChange={(e) => handleInputChange(e, "name")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email">Email:</label>
-                <input
-                  id="email"
-                  type="email"
-                  value={result?.email || ""}
-                  onChange={(e) => handleInputChange(e, "email")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="mobile">Mobile:</label>
-                <input
-                  id="mobile"
-                  type="tel"
-                  value={result?.mobile_number || ""}
-                  onChange={(e) => handleInputChange(e, "mobile_number")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="linkedin">LinkedIn:</label>
-                <input
-                  id="linkedin"
-                  type="url"
-                  value={result?.linkedin || ""}
-                  onChange={(e) => handleInputChange(e, "linkedin")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="college">College:</label>
-                <input
-                  id="college"
-                  type="text"
-                  value={result?.college_name || ""}
-                  onChange={(e) => handleInputChange(e, "college_name")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="degree">Degree:</label>
-                <textarea
-                  id="degree"
-                  value={result?.degree || ""}
-                  onChange={(e) => handleInputChange(e, "degree")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="designation">Designation:</label>
-                <textarea
-                  id="designation"
-                  value={result?.designation || ""}
-                  onChange={(e) => handleInputChange(e, "designation")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="experience">Experience:</label>
-                <textarea
-                  id="experience"
-                  value={result?.experience || ""}
-                  onChange={(e) => handleInputChange(e, "experience")}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="totalExperience">Total Experience:</label>
-                <input
-                  id="totalExperience"
-                  type="number"
-                  value={result?.total_experience || ""}
-                  onChange={(e) => handleInputChange(e, "total_experience")}
-                />
-              </div>
-
-              <div>
-                <TagList initialTags={result?.skills ? result.skills : []} tagName="skill"/>
-              </div>
-
-              <div>
-                <TagList initialTags={result?.company_names ? result.company_names : []} tagName="companies"/>
-              </div>
-
-              <button type="submit">Submit</button>
-            </form>
+            <ResumeForm 
+              data={result}
+              onSubmit={handleSubmit}
+              onChange={setData}
+            />
+            <DownloadButton />
           </>
         ) : (
           <p>No data available. Upload a resume to extract information.</p>
         )}
-        <DownloadButton />
       </div>
     </>
   );

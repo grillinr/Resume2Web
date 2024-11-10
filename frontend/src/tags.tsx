@@ -3,6 +3,7 @@ import React, { useState, ChangeEvent, KeyboardEvent } from 'react';
 interface TagListProps {
   initialTags?: string[]; // Optional prop for initial tags
   tagName: string;
+  onChange: (tags: string[]) => void;
 }
 
 const TagList: React.FC<TagListProps> = ({ initialTags = [], tagName }) => {
