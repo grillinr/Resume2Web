@@ -79,7 +79,43 @@ def upload_file():
         "education": education,
         "experience": experience,
         "skills": list(set([resume_data['skill'][i]['raw'].replace(",", "").lower() for i in range(len(resume_data['skill']))])),
-        "about": resume_data['summary']
+        "about": resume_data['summary'],
+        "bg_color": "#f9f8fd",
+        "fg_color": "#5d5c61",
+        "text_color": "#333",
+        "font_family": "'Georgia', serif",
+        "heading_font_family": "'Courier New', Courier, monospace",
+        "body_font_size": "1rem",
+        "body_text_align": "center",
+        "heading_font_size": "2.5rem",
+        "subheading_font_size": "1.5rem",
+        "subheading_text_align": "center",
+        "padding": "30px",
+        "margin": "20px",
+        "gap": "15px",
+        "stack_items": "vertical",
+        "list_direction": "column",
+        "job_width": "30%",
+        "job_margin": "0 0 15px 0",
+        "container_max_width": "1100px",
+        "container_margin": "0 auto",
+        "header_bg_color": "#dfe7fd",
+        "header_text_color": "#3b3a43",
+        "header_padding": "30px",
+        "header_text_align": "center",
+        "skill_bg_color": "#a8e6cf",
+        "skill_text_color": "#3b3a43",
+        "skill_padding": "15px",
+        "skill_border_radius": "10px",
+        "job_bg_color": "#ffd3b6",
+        "job_padding": "15px",
+        "job_margin_bottom": "15px",
+        "job_border_radius": "10px",
+        "link_color": "#ff8b94",
+        "link_hover_color": "#ff6f69",
+        "contact_list_style": "square",
+        "contact_item_margin": "10px 0"
+
     }
 
     return jsonify(resume_data)
@@ -116,8 +152,11 @@ def parse_resume(resumePath):
 @main.route('/generate', methods=['POST'])
 def generate():
     info = request.json
-    user_info = info["user_info"]
-    style_config = info["style_config"]
+    user_info = {key: val for key, val in info.items() if key in [
+        "name", "email", "phone_number", "links", "education", "experience", "skills", "about"]}
+
+    style_config = {key: val for key, val in info.items() if key not in [
+        "name", "email", "phone_number", "links", "education", "experience", "skills", "about"]}
     get_site(user_info, style_config)
 
     try:
