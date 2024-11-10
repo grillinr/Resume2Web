@@ -73,8 +73,8 @@ def upload_file():
 
     return {
         "name": resume_data['candidateName']['raw'],
-        "email": [resume_data['email'][i]['raw'] for i in range(len(resume_data['email']))],
-        "phone_number": [resume_data['phoneNumber'][i]['raw'] for i in range(len(resume_data['phoneNumber']))],
+        "email": ", ".join([resume_data['email'][i]['raw'] for i in range(len(resume_data['email']))]),
+        "phone_number": ", ".join([resume_data['phoneNumber'][i]['raw'] for i in range(len(resume_data['phoneNumber']))]),
         "links": [resume_data['website'][i]['raw'] for i in range(len(resume_data['website']))],
         "education": education,
         "experience": experience,

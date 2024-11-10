@@ -70,7 +70,7 @@ STYLE = """
   }}
 
   .job-list, .education-list {{
-    list-style-type: {contact_list_style};
+    list-style-type: none;
     padding: 0;
     display: flex;
     flex-direction: {list_direction};
@@ -89,12 +89,12 @@ STYLE = """
   }}
 
   .contact ul {{
-    list-style-type: {contact_list_style};
+    list-style-type: none;
     padding: 0;
   }}
 
   .contact li {{
-    list-style-type: {contact_list_style};
+    list-style-type: none;
     margin: {contact_item_margin};
   }}
 
@@ -151,7 +151,7 @@ LINKSECTION = """
 
 JOB = """
 <div class="job">
-  <strong>{role}</strong> @ {company} for {months} months.<br>
+  <strong>{role}</strong> @ {company} for {months} months.<br><br>
   Description: {desc}<br>
 </div>
 """
@@ -178,6 +178,7 @@ SCHOOLS = """
   <ul class="education-list">
     {schools}
   </ul>
+  <br>
 </section>
 """
 
