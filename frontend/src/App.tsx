@@ -3,25 +3,29 @@ import "./App.css";
 import ResumeForm from "./ResumeConfigForm";
 
 
+interface Education {
+  name: string | null;
+  date_range: string | null;
+  majors: string[] | null;
+  degrees: string | null;
+}
+
+interface Experience {
+  title: string | null;
+  company: string | null;
+  months: string | null;
+  description: string | null;
+}
+
 interface ResumeData {
-    name: string | null;
-    email: string | null;
-    phone_number: string | null;
-    links: string[] | null;
-    skills: string[] | null;
-    education: {
-        name: string | null;
-        date_range: string | null;
-        majors: string[] | null;
-        degrees: string[] | null;
-    } | null;
-    experience: {
-        title: string | null;
-        company: string | null;
-        months: string | null;
-        description: string | null;
-    } | null;
-    about: string | null;
+  name: string | null;
+  email: string | null;
+  phone_number: string | null;
+  links: string[] | null;
+  skills: string[] | null;
+  education: Education[];
+  experience: Experience[];
+  about: string | null;
 }
 
 /* interface PostSuccess {

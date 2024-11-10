@@ -215,7 +215,7 @@ def format_schools(education):
     return SCHOOLS.format(schools=SCHOOL.format(
         school=education[0]["name"],
         majors=", ".join(education[0]["majors"]),
-        degrees=", ".join(education[0]["degrees"]),
+        degrees=education[0]["degrees"],
         date_range=education[0]["date_range"]
     ))
 
