@@ -198,7 +198,6 @@ const App: React.FC = () => {
                             onSubmit={handleFormSubmit} // Use the wrapper function
                             onChange={setData}
                         />
-                        <StyleConfigForm />
                         <DownloadButton />
                     </>
                 ) : (
