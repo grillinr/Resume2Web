@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start-backend": "cd .. && flask run --no-debugger",
+    "start-backend": "cd .. && flask run --debug",
     "start-frontend": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

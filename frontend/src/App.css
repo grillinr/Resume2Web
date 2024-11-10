@@ -32,11 +32,111 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
-.card {
-  padding: 2em;
+/* Body and global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f5f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #283447;
 }
 
-.read-the-docs {
-  color: #888;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #283447;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #6c7c8b;
+  margin-bottom: 30px;
+}
+
+/* Form container */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for form */
+form:hover {
+  transform: scale(1.02);
+  border: #283447 1px solid;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form field styles */
+label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #283447;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 12px 15px;
+  border: 1px solid #bfd5e8;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #283447;
+  background-color: #f7f9fb;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Input focus state */
+input:focus {
+  border-color: #283447;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Submit button styles */
+button {
+  padding: 12px 20px;
+  background-color: #283447;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover state */
+button:hover {
+  background-color: #bfd5e8;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
