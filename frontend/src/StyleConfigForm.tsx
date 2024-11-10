@@ -63,7 +63,7 @@ const StyleConfigForm = () => {
             <h3 className="font-semibold text-lg mb-4">Colors</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium mb-1" title="Background color for the entire portfolio page">
+                <label className="color-button block text-sm font-medium mb-1" title="Background color for the entire portfolio page">
                   Background Color
                 </label>
                 <input
@@ -76,7 +76,7 @@ const StyleConfigForm = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1" title="Main text color for content">
+                <label className="color-button block text-sm font-medium mb-1" title="Main text color for content">
                   Foreground Color
                 </label>
                 <input
@@ -89,7 +89,7 @@ const StyleConfigForm = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1" title="General text color throughout the portfolio">
+                <label className="color-button block text-sm font-medium mb-1" title="General text color throughout the portfolio">
                   Text Color
                 </label>
                 <input
@@ -102,7 +102,7 @@ const StyleConfigForm = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1" title="Color for hyperlinks">
+                <label className="color-button block text-sm font-medium mb-1" title="Color for hyperlinks">
                   Link Color
                 </label>
                 <input
@@ -257,7 +257,7 @@ const StyleConfigForm = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1" title="Background color for job sections">
+                <label className="color-button block text-sm font-medium mb-1" title="Background color for job sections">
                   Job Background Color
                 </label>
                 <input

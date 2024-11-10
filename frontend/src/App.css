@@ -143,6 +143,11 @@ button:hover {
   background-color: #3a4a61;
 }
 
+.color-button {
+    width: 5%;
+    height: 5%
+}
+
 /* Tag system */
 .tag-list-container {
   width: 100%;
@@ -186,7 +191,6 @@ button:hover {
 }
 
 .tag:hover {
-  transform: scale(1.05);
   border-color: #283447;
 }
 
