@@ -78,7 +78,7 @@ def upload_file():
         "links": [resume_data['website'][i]['raw'] for i in range(len(resume_data['website']))],
         "education": education,
         "experience": experience,
-        "skills": set([resume_data['skill'][i]['raw'].replace(",", "").lower() for i in range(len(resume_data['skill']))]),
+        "skills": list(set([resume_data['skill'][i]['raw'].replace(",", "").lower() for i in range(len(resume_data['skill']))])),
         "about": resume_data['summary']
     }
 
