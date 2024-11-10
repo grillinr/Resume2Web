@@ -166,7 +166,3 @@ def generate():
     except Exception as e:
         print(e)
         return jsonify({"error": "A server error occurred."}), 500
-
-    if __name__ == "__main__":
-        parse_resume(
-            "C:\\Users\\Derek\\OneDrive\\Desktop\\DerekCornielloResume.pdf")

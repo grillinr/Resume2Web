@@ -192,8 +192,11 @@ SKILLS = """
 """
 
 # Functions to format data
+
+
 def format_links(links):
     return LINKSECTION.format(links="\n".join([LINK.format(url=link) for link in links]))
+
 
 def format_jobs(job):
     if not job:
@@ -205,6 +208,7 @@ def format_jobs(job):
         desc=job[0]["desc"]
     ))
 
+
 def format_schools(education):
     if not education:
         return ""
@@ -215,19 +219,24 @@ def format_schools(education):
         date_range=education[0]["date_range"]
     ))
 
+
 def format_skills(skills):
     if not skills:
         return ""
     return SKILLS.format(skills="".join([SKILL.format(skill=skill) for skill in skills]))
 
+
 def format_style(style_config):
     return STYLE.format(**style_config)
 
 # Generate HTML
+
+
 def get_site(user_info, style_config):
     style = format_style(style_config)
     heading = HEADING.format(name=user_info["name"] or "My")
-    aboutme = ABOUTME.format(desc=user_info["about"] or "No description available.")
+    aboutme = ABOUTME.format(
+        desc=user_info["about"] or "No description available.")
     contact = CONTACT.format(
         email=user_info["email"] or "No email provided",
         phone_number=user_info["phone_number"] or "No phone number provided"
@@ -236,10 +245,10 @@ def get_site(user_info, style_config):
     education = format_schools(user_info["education"])
     experience = format_jobs(user_info["experience"])
     skills = format_skills([])  # No skills list provided in `resume_data`
-    
+
     body = heading + aboutme + contact + links + education + experience + skills
-    os.makedirs("../out", exist_ok=True)
-    with open("../out/generated_page.html", "w+") as html_out:
+    os.makedirs("backend/out", exist_ok=True)
+    with open("backend/out/generated_page.html", "w+") as html_out:
         html_out.write(SCAFFOLD.format(
             name=user_info["name"] or "My",
             body=body,
